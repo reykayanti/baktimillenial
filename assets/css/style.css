@@ -22,41 +22,14 @@ h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 #main {
   margin-top: 70px;
   z-index: 3;
   position: relative;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #94c045;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-.back-to-top:hover {
-  background: #a6ca63;
-  color: #fff;
-}
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -70,9 +43,11 @@ h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 90vh;
-  background: url("../img/bgg.jpg") top center;
+  width: 1440px;
+  height: 615px;
+  left: calc(50% - 1440px/2);
+  top: calc(50% - 615px/2 - 1228.5px);
+  background: url("../img/background.svg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -140px;
@@ -99,39 +74,53 @@ h3, h4, h5, h6 {
   flex-direction: column;
   text-align: center;
 }
+
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 60px;
-  font-weight: 400;
   line-height: 56px;
-  color: #fff;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 102px;
+  text-align: center;
+  color: #FFFFFF;
+
 }
 #hero h2 {
-  margin-top: 25px;
   color: #BD2600;
   margin-bottom: 50px;
-  font-size: 60px;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 102px;
+  text-align: center;
+  color: #D26230;
 }
 
 #hero .actions a {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
   padding: 12px 40px;
-  letter-spacing: 1px;
-  border-radius: 10px;
   transition: 0.5s;
-  line-height: 1;
   display: inline-block;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin: 20px;
+  border-radius: 6px;
+  box-sizing: border-box;
+    
 }
 #hero .btn-get-started {
-  background: #e96b56;
   border: 2px solid #e96b56;
   color: #fff;
+  background: #D26230;
 }
 #hero .btn-get-started:hover {
   background: none;
@@ -139,8 +128,8 @@ h3, h4, h5, h6 {
   color: #fff;
 }
 #hero .btn-services {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #D26230;
+  color: #D26230;
 }
 #hero .btn-services:hover {
   background: #03C4EB;
@@ -195,23 +184,29 @@ section {
 }
 
 .section-title {
-  text-align: center;
   padding-bottom: 30px;
-  font-weight: 500;
-  font-size: 40px;
-  color: #30A1A1;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #1D848D;
 }
 
 .section-title h2 {
-  font-size: 40px;
-  font-weight: 100;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: 'Oswald', sans-serif;
-  color: #646c55;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #1D848D;
 }
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -220,27 +215,70 @@ section {
 # featured
 --------------------------------------------------------------*/
 .featured .container {
-  background: #fff;
-  padding: 10px 10px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
   transition: all ease-in-out 0.3s;
   height: 10%;
+  background: #FCF7F7;
+  border: 7px solid rgba(16, 80, 149, 0.09);
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 743px;
+  height: 112.4px;
+  left: 349px;
+  top: 554.6px;
 }
-.featured .count-box {
-  width: 100%;
+.featured .count-box h2 {
+  width: 142px;
+  height: 22.34px;
+  left: 387px;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #D26230;
+
 }
 
 .featured .count-box p {
   padding: 5px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  color: #646c55;
+  margin: auto;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(4, 1, 0, 0.71);
+
 }
 .featured .content {
   font-size: 15px;
+}
+
+.firstOverlayLine {
+  width: 76.22px;
+  height: 0px;
+  top: 566.77px;
+  line-height: 60px;
+
+  border: 5px solid rgba(16, 80, 149, 0.09);
+  transform: rotate(90deg);
+}
+
+.secondOverlayLine {
+  width: 76.22px;
+  height: 0px;
+  left: 841px;
+  top: 566.77px;
+
+  border: 5px solid rgba(16, 80, 149, 0.09);
+  transform: rotate(90deg);
+
 }
 
 /*--------------------------------------------------------------
@@ -271,18 +309,26 @@ section {
   background: #fff;
 }
 #about .about-title {
-  color: #BD2600;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  align-items: center;
   text-align: center;
-  font-weight: 180;
-  font-size: 30px;
-  font-family: 'Oswald', sans-serif;
+  color: #D26230;
 }
 #about .about-text {
-  line-height: 20px;
   margin: 25px;
-  font-family: 'Poppins', sans-serif;
-  color: #383838;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(4, 1, 0, 0.71);
+  text-align: justify;
 }
+
 #about .about-text:last-child {
   margin-bottom: 0;
 }
@@ -290,250 +336,289 @@ section {
 /*--------------------------------------------------------------
 # Detail Kegiatan
 --------------------------------------------------------------*/
-.services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  margin: 0 10px 40px 10px;
+.services{
+    background: rgba(29, 132, 141, 0.07);
+    width: 100%;
+}
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+.box .icon { 
+  text-align: center; 
+  position: relative; 
+  background: rgba(252, 179, 113, 0.04);
+  border: 1px solid #FCB371;
+  box-sizing: border-box;
+  border-radius: 20px
+  padding-top:40px;
+}
+.box .icon .image { 
+  position: relative; 
+  z-index: 2; margin: auto; 
+  width: 88px; 
+  height: 88px; 
+  border: 8px solid white; 
+  line-height: 88px; 
+  border-radius: 50%; 
+  background: #63B76C; 
+  vertical-align: middle; 
+}
+.box .icon:hover .image {
+  background: rgba(252, 179, 113, 0.04); 
+}
+.box .icon .image i { 
+  font-size: 36px !important; 
+  color: #fff !important; 
+}
+.box .icon:hover .image i { color: white !important; }
+.box .icon .info { 
+  margin-top: -24px; 
+  background: rgba(0, 0, 0, 0.04); 
+  border: 1px solid #e0e0e0; 
+  padding: 15px 0 10px 0; 
+}
+.box .icon:hover .info { 
+  background: rgba(0, 0, 0, 0.04); 
+  border-color: #e0e0e0; 
+  color: white; 
+}
+.box .icon .info h3.title {
+ font-family: "Roboto",sans-serif !important; 
+ font-size: 16px; 
+ color: #222; 
+ font-weight: 500; 
+}
+.box .icon .info p { 
+  font-family: "Roboto",sans-serif !important; 
+  font-size: 13px; 
+  color: #666; 
+  line-height: 1.5em; 
+  margin: 20px;
+}
+.box .icon:hover .info h3.title, .box .icon:hover .info p, .box .icon:hover .info .more a { 
+  color: #222; 
+}
+.box .icon .info .more a { 
+  font-family: "Roboto",sans-serif !important; 
+  font-size: 12px; color: #222; 
+  line-height: 12px; 
+  text-transform: uppercase; 
+  text-decoration: none; 
+}
+.box .icon:hover .info .more a { 
+  color: #fff; 
+  padding: 6px 8px; 
+  background-color: #63B76C; 
+}
+.box .space { 
+  height: 20px; 
+}
+/*--------------------------------------------------------------
+# Jalur
+--------------------------------------------------------------*/
+
+#daftar {
   background: #fff;
-  box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
+  padding: 20px 0;
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
 }
-.services .icon-box:hover {
-  transform: translateY(-5px);
+#daftar .funded {
+  width: 280px;
+  height: 183px;
+  background: rgba(16, 80, 149, 0.09);
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
 }
-.services .icon {
-  position: absolute;
-  left: -20px;
-  top: calc(50% - 30px);
+
+#daftar .funded .ftitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #D26230;
+  text-align: center;
+  margin-top: 30px;
+  }
+
+#daftar .funded .solid {
+  border: 1px solid rgba(4, 1, 0, 0.71);
 }
-.services .icon i {
-  font-size: 64px;
-  line-height: 1;
-  transition: 0.5s;
+
+#daftar button {
+  width: 172px;
+  height: 60px;
+  background: #D23030DE;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 45%;
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 44px;
+  color: #FFFFFF;
+
 }
-.services .title {
-  margin-left: 40px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-.services .title a {
-  color: #111;
-}
-.services .icon-box:hover .title a {
-  color: #94c045;
-}
-.services .description {
+#daftar .funded p {
+  width: 255px;
+  height: 42px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  margin-left: 40px;
-  line-height: 24px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(4, 1, 0, 0.71);
+}
+#daftar .daftar-content {
+  background: #fff;
+}
+#daftar h2 {
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #1D848D;
+}
+#daftar h3 {
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 63px;
+  text-align: center;
+  color: #F55151;
+  margin-bottom: 30px;
+}
+
+#daftar .daftar-text:last-child {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
-# Registration
+# fasilitas
+--------------------------------------------------------------*/
+#fasilitas {
+  background: #FFE4C4;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+}
+
+#fasilitas .box1 {
+  width: 500px;
+}
+
+#fasilitas h3 {
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 58px;
+  text-align: center;
+  color: #1D848D;
+  margin-top: 50px;
+}
+
+#fasilitas h4 {
+  font-family: 'League Gothic', arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #D26230;
+
+}
+
+#fasilitas .box2 .round {
+  width: 74px;
+  height: 74px;
+  left: 536px;
+  top: 2236px;
+
+  background: #FFFFFF;
+  border: 1px solid rgba(196, 196, 196, 0.67);
+  box-sizing: border-box;
+}
+
+#fasilitas .box2 .imgicon {
+  width: 50px;
+  height: 50px;
+}
+
+/*--------------------------------------------------------------
+# Lokasi
 --------------------------------------------------------------*/
 
-#Registration {
+#lokasi {
   background: #fff;
   padding: 20px 0;
   font-family: "Raleway", sans-serif;
 }
-#Registration .Registration-img {
+#lokasi .lokasi-img {
   overflow: hidden;
+
 }
-#Registration .Registration-img img {
+#lokasi .lokasi-img img {
   max-width: 100%;
+
 }
 @media (max-width: 768px) {
-  #Registration .Registration-img {
+  #lokasi .lokasi-img {
     height: auto;
   }
-  #Registration .Registration-img img {
-    margin-left: 0;
+  #lokasi .lokasi-img img {
+    margin-right: : 0;
     padding-bottom: 30px;
   }
 }
-#Registration .Registration-content {
+#lokasi .about-content {
   background: #fff;
 }
-#Registration .Registration-title {
-  color: #BD2600;
-  text-align: center;
-  font-weight: 180;
-  font-size: 30px;
-  font-family: 'Oswald', sans-serif;
-}
-#Registration .Registration-text {
-  line-height: 20px;
-  margin: 25px;
-  font-family: 'Poppins', sans-serif;
-  color: #383838;
-}
-#Registration .Registration-text:last-child {
-  margin-bottom: 0;
-}
-#Registration .actions a {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 12px 40px;
-  letter-spacing: 1px;
-  border-radius: 10px;
-  transition: 0.5s;
-  line-height: 1;
-  display: inline-block;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  margin: 20px;
-}
-#Registration.btn-get-regist {
-  background: #e96b56;
-  border: 2px solid #e96b56;
-  color: #fff;
-}
-#Registration.btn-get-regist:hover {
-  background: none;
-  border: 2px solid #fff;
-  color: #fff;
+
+#lokasi .lokasi-text {
+  width: 665px;
+  height: 292px;
+  left: 145px;
+  top: 2725px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(4, 1, 0, 0.71);
+
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #5F9EA0;
-  padding: 0 0 30px 0;
-  color: #fff;
-  font-size: 14px;
-}
-#footer .footer-top {
-  background: #FFE4C4;
-  padding: 60px 0 30px 0;
-}
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-info h3 {
-  font-size: 26px;
-  margin: 0 0 10px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 3px;
-  color: #9fc658;
-}
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
+#lokasi .about-text:last-child {
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #fff;
 }
-#footer .footer-top .social-links a {
-  display: inline-block;
-  background: #3c4133;
-  color: #fff;
-  line-height: 1;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+
+footer {
+width: 1440px;
+height: 55px;
+left: -11px;
+top: 3023px;
+
+background: #1D848D;
 }
-#footer .footer-top .social-links a i {
-  line-height: 0;
-  font-size: 16px;
-}
-#footer .footer-top .social-links a:hover {
-  background: #94c045;
-  color: #fff;
-  text-decoration: none;
-}
-#footer .footer-top h4 {
-  font-size: 14px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  position: relative;
-  padding-bottom: 12px;
-}
-#footer .footer-top h4::before, #footer .footer-top h4::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-}
-#footer .footer-top h4::before {
-  right: 0;
-  background: #3c4133;
-}
-#footer .footer-top h4::after {
-  background: #94c045;
-  width: 60px;
-}
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 5px 0 0 0;
-  margin: 0;
-}
-#footer .footer-top .footer-links ul li {
-  padding: 0 0 15px 0;
-}
-#footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
-}
-#footer .footer-top .footer-links ul a:hover {
-  color: #94c045;
-}
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-contact p {
-  line-height: 26px;
-}
-#footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-newsletter input[type=email] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-  border-radius: 4px 0 0 4px;
-}
-#footer .footer-top .footer-newsletter input[type=submit] {
-  background: #94c045;
-  border: 0;
-  border-radius: 0 4px 4px 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-#footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #789d35;
-}
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
+
+footer .footer-container {
+  background: #1D848D;
 }
