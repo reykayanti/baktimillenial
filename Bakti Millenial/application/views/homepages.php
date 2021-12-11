@@ -34,7 +34,7 @@
                     <a class="nav-link rounded-pill" href="#">Home</a>
                     <a class="nav-link rounded-pill" href="#">Blog</a>
                     <a class="nav-link rounded-pill" href="#">Galery</a>
-                    <a class="nav-link rounded-pill" href="#">Program</a>
+                    <a href="<?php echo base_url(); ?>pendaftaran"><b>Admin</b>CRUD</a>
                     <a class="nav-link rounded-pill" href="#">Contact</a>
                     <a class="nav-link rounded-pill" href="#">sign Up</a>
                 </div>
@@ -61,60 +61,6 @@
 
         </div>
     </div>
-
-    <!-- <div class="position translate-middle">Projects</div>
-    <div class="row">
-        <div class="col-4">
-            <div class="card-title text-white bg-warning " style="max-width: 18rem;">
-                <div class="card-title">
-                    BAKTI MILLENIAL #3
-                </div>
-                <div class="card-image">
-                    <img src="<?php echo base_url();?>assets/images/satu.png" width="200" height="200">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Secondary card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-                <button type="button" class="btn btn-success">Secondary</button>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-                <div class="card-title">
-                    BAKTI MILLENIAL #3
-                </div>
-                <div class="card-image">
-                    <img src="<?php echo base_url();?>assets/images/satu.png" width="200" height="200">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Secondary card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <button type="button" class="btn btn-success">Secondary</button>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-                <div class="card-title">
-                    BAKTI MILLENIAL #3
-                </div>
-                <div class="card-image">
-                    <img src="<?php echo base_url();?>assets/images/satu.png" width="200" height="200">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Secondary card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <button type="button" class="btn btn-success">Secondary</button>
-            </div>
-        </div>
-    </div> -->
     <div class="container pt-2 text-center">
         <h2>Projects</h2>
         <div class="row pt-2">
@@ -244,7 +190,6 @@
             <p>Copyrigth @2021 Bakti Millenial | Theme by Bakti Millenial | More </p>
         </div>
     </div>
-
 
 
     <!-- Optional JavaScript; choose one of the two! -->
