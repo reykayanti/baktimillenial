@@ -8,7 +8,6 @@
 	<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 
 	<!-- STYLES -->
-	<!-- ajiajia -->
 
 	<style {csp-style-nonce}>
 		* {
