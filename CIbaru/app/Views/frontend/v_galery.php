@@ -14,13 +14,13 @@
 
     <title>Bakti Millenial</title>
     <?php
-    include('nav-bar.php');
+    include('v_navbar.php');
     ?>
 
     <!-- hero section -->
     <div>
         <div class="card bg-dark text-white" style="z-index: 1;">
-            <img src="images/rinjani3.svg" class="card-img" alt="...">
+            <img src="frontend2/images/rinjani3.svg" class="card-img" alt="...">
             <div class="card-img-overlay">
                 <h1 class="title">BAKTI MILENIAL #4</h1>
             </div>
@@ -31,20 +31,20 @@
     <!-- start card galery -->
     <div class="row">
         <div class="column">
-            <div class="kotak"><img src="images/KOTAK2.svg" alt=""></div>
-            <img src="images/BINTAN.svg" style="margin-top: -430px; margin-left: 3px" alt="">
+            <div class="kotak"><img src="frontend2/images/KOTAK2.svg" alt=""></div>
+            <img src="frontend2/images/BINTAN.svg" style="margin-top: -430px; margin-left: 3px" alt="">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s</p>
         </div>
         <div class="column text-center">
-            <div class="kotak"><img src="images/KOTAK2.svg" alt=""></div>
-            <img src="images/BINTAN.svg" style="margin-top: -430px; margin-left: 3px" alt="">
+            <div class="kotak"><img src="frontend2/images/KOTAK2.svg" alt=""></div>
+            <img src="frontend2/images/BINTAN.svg" style="margin-top: -430px; margin-left: 3px" alt="">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s</p>
         </div>
         <div class="column">
-            <div class="kotak"><img src="images/KOTAK2.svg" alt=""></div>
-            <img src="images/BINTAN.svg" style="margin-top: -430px; margin-left: 3px" alt="">
+            <div class="kotak"><img src="frontend2/images/KOTAK2.svg" alt=""></div>
+            <img src="frontend2/images/BINTAN.svg" style="margin-top: -430px; margin-left: 3px" alt="">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s</p>
         </div>
@@ -62,21 +62,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/sample.jpg" class="d-block w-100" alt="...">
+                        <img src="frontend2/images/sample.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/sample.jpg" class="d-block w-100" alt="...">
+                        <img src="frontend2/images/sample.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/sample.jpg" class="d-block w-100" alt="...">
+                        <img src="frontend2/images/sample.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>

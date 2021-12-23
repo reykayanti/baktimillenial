@@ -11,21 +11,21 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/detail-program.css">
+    <link rel="stylesheet" href="frontend2/style/detail-program.css">
 
     <title>Bakti Millenial</title>
     <?php
-    include('nav-bar.php');
+    include('v_navbar.php');
     ?>
 
     <div class="container">
         <h1 class="title">BAKTI MILENIAL #3</h1>
         <h1 class="title">[ BINTAN ]</h1>
-        <img src="images/BINTAN.svg" class="border border-dark" alt="" style="margin-top: 50px;">
+        <img src="frontend2/images/BINTAN.svg" class="border border-dark" alt="" style="margin-top: 50px;">
         <p class="card-text">
-            <img src="images/calendar.png" alt="">
+            <img src="frontend2/images/calendar.png" alt="">
             <small class="text-muted">17 Desember 2021</small>
-            <img src="images/user.png" alt="">
+            <img src="frontend2/images/user.png" alt="">
             <small class="text-muted">Admin</small>
         </p>
         <p style="margin-top: 50px;">
@@ -57,8 +57,22 @@
     </div>
 
     <?php
-    include('footer.php');
+    include('v_footer.php');
     ?>
+
+    <script>
+        var program = document.getElementById("program");
+        program.classList.add('active');
+        program.setAttribute("aria-current", "page");
+
+        var galery = document.getElementById("galery");
+        galery.classList.remove('active');
+        galery.setAttribute("aria-current", "none");
+
+        var home = document.getElementById("home");
+        home.classList.remove('active');
+        home.setAttribute("aria-current", "none");
+    </script>
 
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

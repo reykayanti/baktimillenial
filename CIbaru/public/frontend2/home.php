@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style/home.css">
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -112,8 +111,8 @@
         <div class="col-6 pt-0">
             <div class="flex">
                 <div class="flex">
-                    <i class="material-icons" style="">&#xe314;</i>
-                    <h4 class="card-title">Fully Funded</h4>
+                    <i class="material-icons">
+                        <h4 class="card-title">Fully Funded</h4>
                 </div>
                 <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
             </div>
@@ -144,21 +143,21 @@
     </div>
 
     <script>
-    var program = document.getElementById("program");
-    program.classList.add('active');
-    program.setAttribute("aria-current", "page");
+        var home = document.getElementById("home");
+        home.classList.add('active');
+        home.setAttribute("aria-current", "page");
 
-    var galery = document.getElementById("galery");
-    galery.classList.remove('active');
-    galery.setAttribute("aria-current", "none");
+        var galery = document.getElementById("galery");
+        galery.classList.remove('active');
+        galery.setAttribute("aria-current", "none");
 
-    var home = document.getElementById("home");
-    home.classList.remove('active');
-    home.setAttribute("aria-current", "none");
+        var program = document.getElementById("program");
+        program.classList.remove('active');
+        program.setAttribute("aria-current", "none");
 
-    var daftar = document.getElementById("daftar");
-    daftar.classList.remove('active');
-    daftar.setAttribute("aria-current", "none");
+        var daftar = document.getElementById("daftar");
+        daftar.classList.remove('active');
+        daftar.setAttribute("aria-current", "none");
     </script>
 
     <?php
@@ -166,8 +165,7 @@
     ?>
 
     <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </head>
 
