@@ -21,7 +21,7 @@
     include('v_navbar.php');
     ?>
 
-    <div class="container" class="mx-auto" style="width: 700px;">
+    <div class="container" class="mx-auto" style="width: 700px; margin-top: 150px;">
         <span class="border-0">
             <center>
                 <h3>Form Pendaftaran</h3>

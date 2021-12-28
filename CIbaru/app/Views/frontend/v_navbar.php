@@ -14,7 +14,7 @@
 
 <body>
     <!-- Navbar content -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow p-3 w-auto" style="background-color: #96bb7c; border-radius: 0px 0px 40px 40px; width: 100px; z-index: 2;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow p-3 w-auto" style="background-color: #96bb7c; border-radius: 0px 0px 40px 40px; width: 100px; z-index: 2;">
         <button class="navbar-toggler" id="nav-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbar-toogler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

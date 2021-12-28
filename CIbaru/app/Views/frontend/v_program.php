@@ -18,7 +18,7 @@
     include('v_navbar.php');
     ?>
 
-    <div class="container">
+    <div class="container" style="margin-top: 100px;">
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <center>
