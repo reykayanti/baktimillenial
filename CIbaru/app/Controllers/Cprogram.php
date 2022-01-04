@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Cprogram extends BaseController
 {
-    public function index()
+    public function program()
     {
         return view('frontend/v_program.php');
     }

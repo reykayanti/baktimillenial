@@ -1,6 +1,4 @@
 <?= $this->extend('admin/v_template_admin'); ?>
-
-
 <?= $this->section('content_admin'); ?>
 <div class="main-content">
 

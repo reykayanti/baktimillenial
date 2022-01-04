@@ -6,6 +6,6 @@ class Cnavbar extends BaseController
 {
     public function index()
     {
-        return view('frontend/v_navbar.php');
+        return view('template/v_navbar.php');
     }
 }
