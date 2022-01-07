@@ -29,16 +29,16 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3 fs-5">
-                    <li>
+                    <li class="me-2">
                         <!-- <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="Chome">Home</a> -->
                         <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
                     </li>
-                    <li>
+                    <li class="me-2">
                         <a id="galery" class="nav-link" href="<?= base_url('gallery'); ?>">Galery</a>
                     </li>
-                    <li>
+                    <li class="me-2">
                         <a id="program" class="nav-link" href="<?= base_url('program'); ?>">Program</a>
-                    </li>
+                    </li class="me-2">
                     <li>
                         <!-- make href a jgn button href -->
                         <!-- <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;">Sign</button> -->
@@ -80,9 +80,9 @@
             program.setAttribute("aria-current", "none");
 
             // Gak ada id berkaitan dengan daftar
-            // var daftar = document.getElementById("daftar");
-            // daftar.classList.remove('active');
-            // daftar.setAttribute("aria-current", "none");
+            var daftar = document.getElementById("daftar");
+            daftar.classList.remove('active');
+            daftar.setAttribute("aria-current", "none");
     </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
