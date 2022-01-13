@@ -45,7 +45,7 @@
                     <li>
                         <!-- make href a jgn button href -->
                         <!-- <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;">Sign</button> -->
-                        <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;"><a id="admin" class="nav-link" href="<?= base_url('admin'); ?>" style="width: 100%;height: 20px;display: flex;justify-content: center;align-items: center;">Sign</a></button>
+                        <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;"><a id="admin" class="nav-link" href="<?= base_url('Clogin'); ?>" style="width: 100%;height: 20px;display: flex;justify-content: center;align-items: center;">Sign</a></button>
                     </li>
                 </ul>
                 <form class="d-flex">
