@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  .row .posisi-section:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+  }
+  .row .posisi-section:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.row .posisi-section {
+  display: flex;
+  flex-direction: row;
+}

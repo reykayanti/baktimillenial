@@ -8,4 +8,10 @@ class Chome extends BaseController
     {
         return view('frontend/v_home.php');
     }
+
+    public function login()
+    {
+        return view('frontend/v_login');
+    }
+
 }

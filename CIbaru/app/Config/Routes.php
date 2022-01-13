@@ -35,6 +35,11 @@ $routes->setAutoRoute(true);
 
 // Home
 $routes->get('/', 'Chome::index');
+
+// Login Dashboard
+$routes->get('/login', 'Chome::login');
+
+
 // Gallery
 $routes->get('/gallery', 'Cgalery::gallery');
 // program

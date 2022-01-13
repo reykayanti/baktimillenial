@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,13 +11,15 @@
     <link rel="stylesheet" href="frontend2/style/nav-bar.css">
     <title>Bakti Millenial</title>
     <style>
-        #navbarSupportedContent{
+        #navbarSupportedContent {
             display: none;
         }
-        #navbarSupportedContent.active{
+
+        #navbarSupportedContent.active {
             display: block;
         }
     </style>
+
 <body>
     <!-- Navbar content -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow p-3 w-auto" style="background-color: #96bb7c; border-radius: 0px 0px 40px 40px; width: 100px; z-index: 2;">
@@ -29,29 +32,29 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3 fs-5">
-                    <li class="me-2">
+                    <li class="me-5">
                         <!-- <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="Chome">Home</a> -->
                         <!-- <a id="home" class="nav-link < ($this->uri->segment(1)==='/')?'active':''?>" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a> -->
                         <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
                     </li>
-                    <li class="me-2">
+                    <li class="me-5">
                         <a id="galery" class="nav-link" href="<?= base_url('gallery'); ?>">Galery</a>
                     </li>
-                    <li class="me-2">
+                    <li class="me-5">
                         <a id="program" class="nav-link" href="<?= base_url('program'); ?>">Program</a>
-                    </li class="me-2">
+                    </li class="me-5">
                     <li>
                         <!-- make href a jgn button href -->
                         <!-- <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;">Sign</button> -->
-                        <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;"><a id="admin" class="nav-link" href="<?= base_url('admin'); ?>" style="width: 100%;height: 20px;display: flex;justify-content: center;align-items: center;">Sign</a></button>
+                        <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;"><a id="admin" class="nav-link" href="<?= base_url('login'); ?>" style="width: 100%;height: 20px;display: flex;justify-content: center;align-items: center;">Sign</a></button>
                     </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-                </div>
             </div>
+        </div>
         </div>
     </nav>
     <!-- end navbar contect -->
@@ -62,18 +65,14 @@
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
     <script>
-            $(document).ready(function () {
-                $('.navbar-toggler').click(function () {
+        $(document).ready(function() {
+            $('.navbar-toggler').click(function() {
                 $('#navbarSupportedContent').toggleClass('active');
-                });
             });
+        });
 
             // active
             $(".navbar-nav .nav-link").on("click", function(){
@@ -99,4 +98,5 @@
             // daftar.setAttribute("aria-current", "none");
     </script>
 </body>
+
 </html>
