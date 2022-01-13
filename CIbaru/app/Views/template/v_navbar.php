@@ -31,6 +31,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3 fs-5">
                     <li class="me-2">
                         <!-- <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="Chome">Home</a> -->
+                        <!-- <a id="home" class="nav-link < ($this->uri->segment(1)==='/')?'active':''?>" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a> -->
                         <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
                     </li>
                     <li class="me-2">
@@ -54,11 +55,19 @@
         </div>
     </nav>
     <!-- end navbar contect -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
+    
     <script>
             $(document).ready(function () {
                 $('.navbar-toggler').click(function () {
@@ -66,26 +75,28 @@
                 });
             });
 
-            
-            var home = document.getElementById("home");
-            home.classList.add('active');
-            home.setAttribute("aria-current", "page");
+            // active
+            $(".navbar-nav .nav-link").on("click", function(){
+                $(".navbar-nav").find(".active").removeClass("active");
+                $(this).addClass("active");
+            });
+                        
+            // var home = document.getElementById("home");
+            // home.classList.add('active');
+            // home.setAttribute("aria-current", "page");
 
-            var galery = document.getElementById("galery");
-            galery.classList.remove('active');
-            galery.setAttribute("aria-current", "none");
+            // var galery = document.getElementById("galery");
+            // galery.classList.remove('active');
+            // galery.setAttribute("aria-current", "none");
 
-            var program = document.getElementById("program");
-            program.classList.remove('active');
-            program.setAttribute("aria-current", "none");
+            // var program = document.getElementById("program");
+            // program.classList.remove('active');
+            // program.setAttribute("aria-current", "none");
 
-            // Gak ada id berkaitan dengan daftar
-            var daftar = document.getElementById("daftar");
-            daftar.classList.remove('active');
-            daftar.setAttribute("aria-current", "none");
+            // // Gak ada id berkaitan dengan daftar
+            // var daftar = document.getElementById("daftar");
+            // daftar.classList.remove('active');
+            // daftar.setAttribute("aria-current", "none");
     </script>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
