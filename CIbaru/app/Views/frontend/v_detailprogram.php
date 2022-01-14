@@ -38,9 +38,9 @@
     </p>
 </div>
 
-<div>
+<!-- <div>
     <a href="<?= base_url('pendaftaran'); ?>" class="btn" style="background: #FAD586; border-radius: 50px; margin-left: 100px; margin-bottom: 40px">Form
         Pendaftaran</a>
-</div>
+</div> -->
 
 <?= $this->endSection(); ?>
