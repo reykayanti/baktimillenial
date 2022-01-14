@@ -5,28 +5,31 @@
     <link rel="stylesheet" href="frontend/style/home.css">
 </head>
 
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Viga&display=swap" rel="stylesheet">
+
 <div class="container-fluid py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <img src="frontend2/images/satu.png" width="500" height="500">
-            </div>
             <div class="col-lg-6 col-md-12 mt-md-5">
-                <h1 class="text-center">BAKTI MILLENIAL</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit
-                    anim id est laborum.</p>
-                <button type="button" class="rounded-pill btn-warning">Read More</button>
+                <h1 class="about text-center">ABOUT US</h1>
+                <p>Yayasan Karya Anak Milenial atau Karya Anak Milenial Indonesia
+                    (KAMI) Foundation merupakan wadah bagi para pemuda Indonesia,
+                    baik yang berada di dalam maupun di luar negeri untuk mengembangkan diri dan menuangkan ide,
+                    inovasi serta karyanya dalam kehidupan bermasyarakat.
+                    Pada Juli 2020, Karya Anak Milenial Indonesia (KAMI)
+                    resmi legal membentuk sebuah yayasan dengan Bapak Sandiaga S. Uno sebagai Dewan Penasehat.</p>
+                <button type="button" class="rounded-pill btn-warning">Info Lanjut</button>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <img src="frontend2/images/aboutus1.svg" width="600" height="600">
             </div>
         </div>
     </div>
 
-    <div class="container pt-2 text-center">
+    <div class="container text-center">
         <h2>Projects</h2>
         <div class="row pt-2 md-3 ">
             <div class="col-sm-4 col-md-4">

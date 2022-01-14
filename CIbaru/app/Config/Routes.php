@@ -47,7 +47,10 @@ $routes->get('/program', 'Cprogram::program');
 $routes->get('/program/detail-program', 'Cdetailprogram::index');
 // pendaftaran
 $routes->get('/pendaftaran', 'Cpendaftaran::index');
-
+// Jalur
+$routes->get('/jalurfully', 'Cfully::index');
+$routes->get('/jalurspecial', 'Cspecial::index');
+$routes->get('/jalurself', 'Cself::index');
 
 // admin
 $routes->get('/admin', 'Cadmin::index');

@@ -15,7 +15,7 @@
         <div class="container-fluid text-center text-white" id="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 pt-5" id="card-logo">
-                    <img src="frontend2/images/logobm.svg" width="200" height="100">
+                    <img src="frontend2/images/logomm.svg" width="200" height="100">
                 </div>
                 <div class="col-md-4 col-sm-6 pt-5 ">
                     <div>

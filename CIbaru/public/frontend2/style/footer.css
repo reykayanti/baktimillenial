@@ -1,5 +1,5 @@
 #container {
-  background-color: #184d47;
+  background-color: #96bb7c;
   border-radius: 50px 50px 0px 0px;
   height: 250px;
   z-index: 2;
@@ -8,6 +8,7 @@
 #copy {
   height: 30px;
   position: relative;
+  background-color: #184d47;
 }
 
 .card-title {
