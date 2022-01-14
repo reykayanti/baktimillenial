@@ -2591,11 +2591,9 @@
         "php": "^7.3 || ^8.0"
     },
     "platform-dev": [],
-<<<<<<< HEAD
+
 
     "plugin-api-version": "2.2.0"
 
-=======
-    "plugin-api-version": "2.1.0"
->>>>>>> parent of e9faea9 (new)
+
 }

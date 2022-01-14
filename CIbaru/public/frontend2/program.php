@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="#">
 
     <title>Bakti Millenial</title>
@@ -37,7 +38,8 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg"
+                    style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
 
             <div class="col-lg-6 col-md-12 mt-md-5 mt-sm-5">
@@ -52,7 +54,8 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg"
+                    style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
@@ -77,7 +80,8 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg"
+                    style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
 
             <div class="col-lg-6 col-md-12 mt-md-5 mt-sm-5">
@@ -92,7 +96,8 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="detail-program.php" class="btn btn-primary" img src="images/READ.svg"
+                    style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
@@ -104,17 +109,17 @@
     </div>
 
     <script>
-        var program = document.getElementById("program");
-        program.classList.add('active');
-        program.setAttribute("aria-current", "page");
+    var program = document.getElementById("program");
+    program.classList.add('active');
+    program.setAttribute("aria-current", "page");
 
-        var galery = document.getElementById("galery");
-        galery.classList.remove('active');
-        galery.setAttribute("aria-current", "none");
+    var galery = document.getElementById("galery");
+    galery.classList.remove('active');
+    galery.setAttribute("aria-current", "none");
 
-        var home = document.getElementById("home");
-        home.classList.remove('active');
-        home.setAttribute("aria-current", "none");
+    var home = document.getElementById("home");
+    home.classList.remove('active');
+    home.setAttribute("aria-current", "none");
     </script>
 
     <?php
@@ -122,7 +127,9 @@
     ?>
 
     <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>

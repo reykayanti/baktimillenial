@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style/home.css">
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,33 +17,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <title>Bakti Millenial</title>
+    <title>Bakti Millenialllllllllll</title>
     <?php
     include('nav-bar.php');
     ?>
 
-    <div class="row ">
+    <div class="row d-flex flex-column-reverse">
         <div class="col-lg-6 col-md-12">
             <img src="images/satu.png" width="500" height="500">
         </div>
         <div class="col-lg-6 col-md-12 mt-md-5">
-            <h1 class="text-center">BAKTI MILLENIAL</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit
-                anim id est laborum.</p>
+            <h1 class="text-center">BAKTI MILLENIALl</h1>
+            <p>Yayasan Karya Anak Milenial atau Karya Anak Milenial Indonesia (KAMI) Foundation merupakan wadah bagi
+                para pemuda Indonesia, baik yang berada di dalam maupun di luar negeri untuk mengembangkan diri dan
+                menuangkan ide, inovasi serta karyanya dalam kehidupan bermasyarakat. Pada Juli 2020, Karya Anak
+                Milenial Indonesia (KAMI) resmi legal membentuk sebuah yayasan dengan Bapak Sandiaga S. Uno sebagai
+                Dewan Penasehat.</p>
             <button type="button" class="rounded-pill btn-warning">Read More</button>
         </div>
     </div>
     <div class="container pt-2 text-center">
         <h2>Projects</h2>
-        <div class="row pt-2 md-3 ">
+        <div class="row d-lg-flex flex-lg-column pt-2 md-3 ">
+            <div class="d-flex flex-wrap col-sm-4 col-md-4">
+                <div class="card" style="background:#E3F6D7">
+                    <h4 class="">Bakti Millenial #3</h4>
+                    <img class="" src="images/satu.png" alt="Card image" style="width:100%">
+                    <div class="card-body" style="background:#E3F6D7">
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-4 col-md-4">
-                <div class="card" style="width:400px">
+                <div class="card" style="background:#E3F6D7">
                     <h4 class="">Bakti Millenial #3</h4>
                     <img class="" src="images/satu.png" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -53,18 +62,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-md-4">
-                <div class="card" style="width:400px" style="background: #E3F6D7">
-                    <h4 class="">Bakti Millenial #3</h4>
-                    <img class="" src="images/satu.png" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
-                        </p>
-                        <a href="#" class="btn btn-primary">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <div class="card" style="width:400px">
+                <div class="card" style="background:#E3F6D7">
                     <h4 class="">Bakti Millenial #3</h4>
                     <img class="" src="images/satu.png" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -136,28 +134,28 @@
         <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti millenial, dan
             perkembangan Bakti Millenial yang lainnya.</p>
         <div class="flex">
-            <img src="images/satu.png" class="rounded-circle" width="70" height="70">
+            <a href=""> <img src="images/satu.png" class="rounded-circle" width="70" height="70"></a>
             <img src="images/satu.png" class="rounded-circle" width="70" height="70">
             <img src="images/satu.png" class="rounded-circle" width="70" height="70">
         </div>
     </div>
 
     <script>
-        var home = document.getElementById("home");
-        home.classList.add('active');
-        home.setAttribute("aria-current", "page");
+    var home = document.getElementById("home");
+    home.classList.add('active');
+    home.setAttribute("aria-current", "page");
 
-        var galery = document.getElementById("galery");
-        galery.classList.remove('active');
-        galery.setAttribute("aria-current", "none");
+    var galery = document.getElementById("galery");
+    galery.classList.remove('active');
+    galery.setAttribute("aria-current", "none");
 
-        var program = document.getElementById("program");
-        program.classList.remove('active');
-        program.setAttribute("aria-current", "none");
+    var program = document.getElementById("program");
+    program.classList.remove('active');
+    program.setAttribute("aria-current", "none");
 
-        var daftar = document.getElementById("daftar");
-        daftar.classList.remove('active');
-        daftar.setAttribute("aria-current", "none");
+    var daftar = document.getElementById("daftar");
+    daftar.classList.remove('active');
+    daftar.setAttribute("aria-current", "none");
     </script>
 
     <?php
@@ -165,7 +163,8 @@
     ?>
 
     <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </head>
 
