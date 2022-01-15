@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="frontend/style/home.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
     <style>
@@ -69,6 +70,59 @@
             background: #E3F6D7;
             color: #666;
         }
+=======
+    <style>
+    .MultiCarousel {
+        float: left;
+        overflow: hidden;
+        padding: 15px;
+        width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    .MultiCarousel {
+        Height: 189px;
+    }
+
+    .MultiCarousel .MultiCarousel-inner {
+        transition: 1s ease all;
+        float: left;
+    }
+
+    .MultiCarousel .MultiCarousel-inner .item {
+        float: left;
+    }
+
+    .MultiCarousel .MultiCarousel-inner .item>div {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        background: #f1f1f1;
+        color: #666;
+    }
+
+    .MultiCarousel .leftLst,
+    .MultiCarousel .rightLst {
+        position: absolute;
+        border-radius: 50%;
+        top: calc(50% - 20px);
+    }
+
+    .MultiCarousel .leftLst {
+        left: 0;
+    }
+
+    .MultiCarousel .rightLst {
+        right: 0;
+    }
+
+    .MultiCarousel .leftLst.over,
+    .MultiCarousel .rightLst.over {
+        pointer-events: none;
+        background: #ccc;
+    }
+>>>>>>> parent of 1e4db6b (update konten2)
     </style>
 </head>
 
@@ -97,14 +151,19 @@
     </div>
 
     <div class="container">
+<<<<<<< HEAD
         <center>
             <h2>Projects</h2>
         </center>
+=======
+        <h2>Projects</h2>
+>>>>>>> parent of 1e4db6b (update konten2)
         <div class="row">
             <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
                 <div class="MultiCarousel-inner">
                     <div class="item">
                         <div class="pad15">
+<<<<<<< HEAD
                             <p class="lead">Pendidikan</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
                             <p>Di bidang pendidikan, kurangnya motivasi belajar dan kesadaran akan pentingnya pendidikan
@@ -112,10 +171,17 @@
                                 Menengah Atas di Lombok yang melanjutkan ke perguruan tinggi, serta sarana prasarana
                                 yang kurang memadai dan hampir tidak ada koleksi buku panduan pendidik di perpustakaan
                                 sekolah. </p>
+=======
+                            <p class="lead">Multi Item Carousel</p>
+                            <p>₹ 1</p>
+                            <p>₹ 6000</p>
+                            <p>50% off</p>
+>>>>>>> parent of 1e4db6b (update konten2)
                         </div>
                     </div>
                     <div class="item">
                         <div class="pad15">
+<<<<<<< HEAD
                             <p class="lead">Lingkungan</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
                             <p>Dalam bidang lingkungan, Lombok sebagai tempat tujuan destinasi wisata tentunya memiliki
@@ -123,10 +189,17 @@
                                 juga pengelolaan sampah secara berkelanjutan. Selain sampah, limbah kotoran ternak juga
                                 menjadi masalah yang belum terselesaikan karena belum adanya langkah dalam pengolahan
                                 limbah tersebut. </p>
+=======
+                            <p class="lead">Multi Item Carousel</p>
+                            <p>₹ 1</p>
+                            <p>₹ 6000</p>
+                            <p>50% off</p>
+>>>>>>> parent of 1e4db6b (update konten2)
                         </div>
                     </div>
                     <div class="item">
                         <div class="pad15">
+<<<<<<< HEAD
                             <p class="lead">Kesehatan</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
                             <p>Di bidang kesehatan, minimnya fasilitas yang ada menyebabkan masyarakat mengalami
@@ -135,10 +208,17 @@
                                 tentang pendidikan menjadi keresahan tersendiri. Kesehatan psikologis juga menjadi
                                 permasalahan terutama pada pernikahan anak usia dini yang banyak terjadi di Lombok.
                             <p>
+=======
+                            <p class="lead">Multi Item Carousel</p>
+                            <p>₹ 1</p>
+                            <p>₹ 6000</p>
+                            <p>50% off</p>
+>>>>>>> parent of 1e4db6b (update konten2)
                         </div>
                     </div>
                     <div class="item">
                         <div class="pad15">
+<<<<<<< HEAD
                             <p class="lead">Ekonomi Kreatif</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
                             <p>Sebagai tujuan destinasi wisata tentunya masyarakat harus memiliki skill yang inovatif
@@ -148,10 +228,15 @@
                                 yang unggul. Proses pemasaran produk, terlalu berfokus pada satu komoditas, kurang bisa
                                 memanfaatkan media sosial/digitalisasi dalam memasarkan produk, kurangnya kreativitas
                                 dalam mengolah </p>
+=======
+                            <p class="lead">Multi Item Carousel</p>
+                            <p>₹ 1</p>
+                            <p>₹ 6000</p>
+                            <p>50% off</p>
+>>>>>>> parent of 1e4db6b (update konten2)
                         </div>
                     </div>
-                </div>
-                <!-- <div class="item">
+                    <!-- <div class="item">
                     <div class="pad15">
                         <p class="lead">Multi Item Carousel</p>
                         <p>₹ 1</p>
@@ -159,7 +244,12 @@
                         <p>50% off</p>
                     </div>
                 </div>-->
+                </div>
+                <button class="btn btn-primary leftLst">
+                    << /button>
+                        <button class="btn btn-primary rightLst">></button>
             </div>
+<<<<<<< HEAD
             <button class="btn btn-primary leftLst">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
@@ -204,32 +294,78 @@
 </div>
 </div>
 </div>
+=======
+        </div>
+>>>>>>> parent of 1e4db6b (update konten2)
 
-<div class="row pt-2">
-    <div class="col-6 pt-0">
-        <img src="frontend2/images/ilustrator.svg" class="w-75">
-    </div>
-    <div class="col-6 pt-0">
-        <div class="flex">
-            <div class="d-flex">
-                <i class="material-icons">&#xe314;</i>
-                <h4 class="card-title card-titles">Fully Funded</h4>
+
+        <div class="container-fluid pt-2 p-3 my-3 text-white" style="background: #FAD586">
+            <div class="row">
+                <div class="d-flex justify-content-center  align-items-center flex-column col-6">
+                    <h1>BAKTI MILLENIAL</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum
+                        dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia
+                        deserunt
+                        mollit
+                        anim id est laborum.</p>
+                    <a href="#" class="btn btn-warning">Read more</a>
+                </div>
+                <div class="col-2">
+                    <img src="frontend2/images/satu.png" width="400" height="400">
+                </div>
             </div>
-            <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
         </div>
-        <div class="">
-            <div class="d-flex">
-                <i class="material-icons">&#xe314;</i>
-                <h4 class="card-title card-titles">Partial Funded</h4>
+
+        <div class="row pt-2">
+            <div class="col-6 pt-0">
+                <img src="frontend2/images/satu.png" style="width:50%">
             </div>
-            <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
+            <div class="col-6 pt-0">
+                <div class="flex">
+                    <div class="d-flex">
+                        <i class="material-icons">&#xe314;</i>
+                        <h4 class="card-title card-titles">Fully Funded</h4>
+                    </div>
+                    <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+                </div>
+                <div class="">
+                    <div class="d-flex">
+                        <i class="material-icons">&#xe314;</i>
+                        <h4 class="card-title card-titles">Partial Funded</h4>
+                    </div>
+                    <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
+                </div>
+                <div class="">
+                    <div class="d-flex">
+                        <i class="material-icons">&#xe314;</i>
+                        <h4 class="card-title card-titles">Self Funded</h4>
+                    </div>
+                    <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
+                </div>
+            </div>
         </div>
-        <div class="">
-            <div class="d-flex">
-                <i class="material-icons">&#xe314;</i>
-                <h4 class="card-title card-titles">Self Funded</h4>
+        <div class="container-fluid p-5 text-center text-white" style="background: #FAD586">
+            <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti
+                millenial, dan
+                perkembangan Bakti Millenial yang lainnya.</p>
+            <div class="flex">
+                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
+                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
+                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
             </div>
-            <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
         </div>
         <div class="container-fluid pt-2 m-9 my-3 text-grey-700" style="background: #FAD586">
             <div class="row">
@@ -290,21 +426,8 @@
             </div>
         </div> -->
     </div>
-</div>
 
-<div class="container-fluid p-5 text-center text-white" style="background: #FAD586">
-    <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti
-        millenial, dan
-        perkembangan Bakti Millenial yang lainnya.</p>
-    <div class="flex">
-        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-    </div>
-</div>
-</div>
-
-<script>
+    <script>
     $(document).ready(function() {
         var itemsMainDiv = ('.MultiCarousel');
         var itemsDiv = ('.MultiCarousel-inner');
@@ -414,6 +537,6 @@
         }
 
     });
-</script>
+    </script>
 
-<?= $this->endSection(); ?>
+    <?= $this->endSection(); ?>
