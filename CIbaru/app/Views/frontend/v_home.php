@@ -171,9 +171,9 @@
                 </svg>
             </button>
         </div>
-        <button class="btn btn-primary leftLst">
-            << /button>
-                <button class="btn btn-primary rightLst">></button>
+        <!-- <button class="btn btn-primary leftLst">
+            <</button>
+                <button class="btn btn-primary rightLst">></button> -->
     </div>
 </div>
 
