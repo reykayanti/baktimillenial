@@ -113,7 +113,6 @@
                     </div>
                     <div class="item">
                         <div class="pad15">
-<<<<<<< HEAD
                             <p class="lead">Lingkungan</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
                             <p>Dalam bidang lingkungan, Lombok sebagai tempat tujuan destinasi wisata tentunya memiliki
@@ -161,80 +160,62 @@
                 </button>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="container-fluid pt-2 p-3 my-3 text-grey-700" style="background: #FAD586">
-                <div class="row">
-                    <div class="d-flex justify-content-center align-items-center flex-column col-7">
-                        <h1>BAKTI MILLENIAL</h1>
-                        <p>Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial Connect (IMC).
-                            Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
-                            berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
-                            kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
-                            Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
-                            dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
-                            Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
-                            masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
-                            diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
-                            Development”.
-                            Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
-                        <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
-                    </div>
-                    <div class="col-2">
-                        <img src="frontend2/images/lombok.png" width="400" height="400">
-                    </div>
+        <div class="container-fluid pt-2 p-3 my-3 text-grey-700" style="background: #FAD586">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center flex-column col-7">
+                    <h1>BAKTI MILLENIAL</h1>
+                    <p>Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial Connect (IMC).
+                        Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
+                        berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
+                        kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
+                        Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
+                        dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
+                        Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
+                        masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
+                        diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
+                        Development”.
+                        Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
+                    <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
                 </div>
-
-                <div class="row pt-2">
-                    <div class="col-6 pt-0">
-                        <img src="frontend2/images/satu.png" style="width:50%">
-                    </div>
-                    <div class="col-6 pt-0">
-                        <div class="flex">
-                            <div class="d-flex">
-                                <i class="material-icons">&#xe314;</i>
-                                <h4 class="card-title card-titles">Fully Funded</h4>
-                            </div>
-                            <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
-                        </div>
-                        <div class="">
-                            <div class="d-flex">
-                                <i class="material-icons">&#xe314;</i>
-                                <h4 class="card-title card-titles">Partial Funded</h4>
-                            </div>
-                            <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
-                        </div>
-                        <div class="">
-                            <div class="d-flex">
-                                <i class="material-icons">&#xe314;</i>
-                                <h4 class="card-title card-titles">Self Funded</h4>
-                            </div>
-                            <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid pt-2 m-9 my-3 text-grey-700" style="background: #FAD586">
-                    <div class="row">
-                        <div class="d-flex justify-content-center align-items-center flex-column col-7">
-                            <h1>Lokasi</h1>
-                            <p>Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial Connect (IMC).
-                                Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
-                                berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
-                                kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
-                                Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
-                                dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
-                                Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
-                                masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
-                                diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
-                                Development”.
-                                Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
-                        </div>
-                        <div class="col-2">
-                            <img src="frontend2/images/lokasi.png" width="400" height="400">
-                        </div>
-                    </div>
+                <div class="col-2">
+                    <img src="frontend2/images/lombok.png" width="400" height="400">
                 </div>
             </div>
         </div>
+
+
+            <div class="row pt-2">
+                <div class="col-6 pt-0">
+                    <img src="frontend2/images/satu.png" style="width:50%">
+                </div>
+                <div class="col-6 pt-0">
+                    <div class="flex">
+                        <div class="d-flex">
+                            <i class="material-icons">&#xe314;</i>
+                            <h4 class="card-title card-titles">Fully Funded</h4>
+                        </div>
+                        <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+                    </div>
+                    <div class="">
+                        <div class="d-flex">
+                            <i class="material-icons">&#xe314;</i>
+                            <h4 class="card-title card-titles">Partial Funded</h4>
+                        </div>
+                        <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
+                    </div>
+                    <div class="">
+                        <div class="d-flex">
+                            <i class="material-icons">&#xe314;</i>
+                            <h4 class="card-title card-titles">Self Funded</h4>
+                        </div>
+                        <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
+                    </div>
+                </div>
+            </div>
+
         <!-- Lokasi -->
         <div class="container-fluid pt-2 m-9 my-3 text-grey-700" style="background: #FAD586">
             <div class="row">
@@ -258,36 +239,34 @@
             </div>
         </div>
 
+        <div class="container">
+            <center>
+                <h2>Persyaratan & Ketentuan</h2>
+            </center>
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="border col-lg-6 col-md-12 mt-md-5">
+                        <p>Terbuka bagi pelajar, mahasiswa,atau masyarakat umum Indonesia dengan batasan usia
+                            15-35 tahun.</p>
+                        <p>Bersedia mengikuti kegiatan dari awal (pembekalan sampai akhir kegiatan</p>
+                        <p>Bersungguh-sungguh dan memiliki niat yang ikhlas dalam kegiatan pengabdian
+                            masyarakat.</p>
+                        <p>Memiliki komitmen diri terhadap kegiatan pengabdian.</p>
 
-                <div class="container">
-                    <center>
-                        <h2>Persyaratan & Ketentuan</h2>
-                    </center>
-                    <div class="row">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <div class="border col-lg-6 col-md-12 mt-md-5">
-                                <p>Terbuka bagi pelajar, mahasiswa,atau masyarakat umum Indonesia dengan batasan usia
-                                    15-35 tahun.</p>
-                                <p>Bersedia mengikuti kegiatan dari awal (pembekalan sampai akhir kegiatan</p>
-                                <p>Bersungguh-sungguh dan memiliki niat yang ikhlas dalam kegiatan pengabdian
-                                    masyarakat.</p>
-                                <p>Memiliki komitmen diri terhadap kegiatan pengabdian.</p>
-
-                            </div>
-                            <div class="border col-lg-6 col-md-12">
-                                <p>Berjiwa sosial dan mampu bekerja dalam tim.</p>
-                                <p>Aktif, kreatif, inovatif, baik dalam pra kegitan, proses kegiatan, maupun pasca
-                                    kegiatan.</p>
-                                <p>Mengikuti seluruh alur tata cara pendaftaran</p>
-                                <p>Mematuhi seluruh aturan selama pengabdian</p>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="border col-lg-6 col-md-12">
+                        <p>Berjiwa sosial dan mampu bekerja dalam tim.</p>
+                        <p>Aktif, kreatif, inovatif, baik dalam pra kegitan, proses kegiatan, maupun pasca
+                            kegiatan.</p>
+                        <p>Mengikuti seluruh alur tata cara pendaftaran</p>
+                        <p>Mematuhi seluruh aturan selama pengabdian</p>
                     </div>
                 </div>
             </div>
         </div>
+</div>
 
-        <script>
+    <script>
             $(document).ready(function() {
                 var itemsMainDiv = ('.MultiCarousel');
                 var itemsDiv = ('.MultiCarousel-inner');
@@ -355,7 +334,6 @@
                     });
                 }
 
-
                 //this function used to move the items
                 function ResCarousel(e, el, s) {
                     var leftBtn = ('.leftLst');
@@ -394,5 +372,5 @@
                 }
 
             });
-        </script>
-    <?= $this->endSection(); ?>
+    </script>
+<?= $this->endSection(); ?>
