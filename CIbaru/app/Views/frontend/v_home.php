@@ -4,6 +4,10 @@
 <head>
     <link rel="stylesheet" href="frontend/style/home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Viga&display=swap" rel="stylesheet">
 
     <style>
         .MultiCarousel {
@@ -57,11 +61,9 @@
             pointer-events: none;
             background: #ccc;
         }
-
         .lead {
             font-family: bold;
         }
-
         .border {
             text-align: center;
             padding: 20px;
@@ -71,11 +73,6 @@
         }
     </style>
 </head>
-
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Acme&family=Viga&display=swap" rel="stylesheet">
 
 <div class="container-fluid py-5">
     <div class="container">
@@ -107,11 +104,11 @@
                         <div class="pad15">
                             <p class="lead">Pendidikan</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-                            <p>Di bidang pendidikan, kurangnya motivasi belajar dan kesadaran akan pentingnya pendidikan
-                                merupakan permasalahan yang sering di keluhkan masyarakat sedikitnya lulusan Sekolah
-                                Menengah Atas di Lombok yang melanjutkan ke perguruan tinggi, serta sarana prasarana
-                                yang kurang memadai dan hampir tidak ada koleksi buku panduan pendidik di perpustakaan
-                                sekolah. </p>
+                            <p>Dalam bidang lingkungan, Lombok sebagai tempat tujuan destinasi wisata tentunya memiliki
+                                permasalahan pada sampah, dimana kurang adanya kesadaran akan kebersihan lingkungan dan
+                                juga pengelolaan sampah secara berkelanjutan. Selain sampah, limbah kotoran ternak juga
+                                menjadi masalah yang belum terselesaikan karena belum adanya langkah dalam pengolahan
+                                limbah tersebut. </p>
                         </div>
                     </div>
                     <div class="item">
@@ -151,86 +148,72 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="item">
-                    <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                <button class="btn btn-primary leftLst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                </button>
+                <button class="btn btn-primary rightLst">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="container-fluid pt-2 p-3 my-3 text-grey-700" style="background: #FAD586">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center flex-column col-7">
+                    <h1>BAKTI MILLENIAL</h1>
+                    <p>Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial Connect (IMC).
+                        Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
+                        berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
+                        kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
+                        Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
+                        dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
+                        Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
+                        masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
+                        diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
+                        Development”.
+                        Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
+                    <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
+                </div>
+                <div class="col-2">
+                    <img src="frontend2/images/lombok.png" width="400" height="400">
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-2">
+            <div class="col-6 pt-0">
+                <img src="frontend2/images/satu.png" style="width:50%">
+            </div>
+            <div class="col-6 pt-0">
+                <div class="flex">
+                    <div class="d-flex">
+                        <i class="material-icons">&#xe314;</i>
+                        <h4 class="card-title card-titles">Fully Funded</h4>
                     </div>
-                </div>-->
+                    <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+                </div>
+                <div class="">
+                    <div class="d-flex">
+                        <i class="material-icons">&#xe314;</i>
+                        <h4 class="card-title card-titles">Partial Funded</h4>
+                    </div>
+                    <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
+                </div>
+                <div class="">
+                    <div class="d-flex">
+                        <i class="material-icons">&#xe314;</i>
+                        <h4 class="card-title card-titles">Self Funded</h4>
+                    </div>
+                    <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
+                </div>
             </div>
-            <button class="btn btn-primary leftLst">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-                </svg>
-            </button>
-            <button class="btn btn-primary rightLst">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                </svg>
-            </button>
         </div>
-        <!-- <button class="btn btn-primary leftLst">
-            <</button>
-                <button class="btn btn-primary rightLst">></button> -->
-    </div>
-</div>
-
-<div class="container-fluid pt-2 p-3 my-3 text-grey-700" style="background: #FAD586">
-    <div class="row">
-        <div class="d-flex justify-content-center align-items-center flex-column col-7">
-            <h1>BAKTI MILLENIAL</h1>
-            <p>Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial Connect (IMC).
-                Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
-                berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
-                kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
-                Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
-                dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
-                Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
-                masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
-                diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
-                Development”.
-                Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
-            <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
-        </div>
-        <div class="col-2">
-            <img src="frontend2/images/lombok.png" width="400" height="400">
-        </div>
-    </div>
-</div>
-<div class="col-3 m-auto">
-    <img src="frontend2/images/BINTAN.svg" width="400" height="400">
-</div>
-</div>
-</div>
-
-<div class="row pt-2">
-    <div class="col-6 pt-0">
-        <img src="frontend2/images/ilustrator.svg" class="w-75">
-    </div>
-    <div class="col-6 pt-0">
-        <div class="flex">
-            <div class="d-flex">
-                <i class="material-icons">&#xe314;</i>
-                <h4 class="card-title card-titles">Fully Funded</h4>
-            </div>
-            <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
-        </div>
-        <div class="">
-            <div class="d-flex">
-                <i class="material-icons">&#xe314;</i>
-                <h4 class="card-title card-titles">Partial Funded</h4>
-            </div>
-            <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
-        </div>
-        <div class="">
-            <div class="d-flex">
-                <i class="material-icons">&#xe314;</i>
-                <h4 class="card-title card-titles">Self Funded</h4>
-            </div>
-            <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
-        </div>
+        
+        <!-- Lokasi -->
         <div class="container-fluid pt-2 m-9 my-3 text-grey-700" style="background: #FAD586">
             <div class="row">
                 <div class="d-flex justify-content-center align-items-center flex-column col-7">
@@ -279,32 +262,10 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container-fluid p-5 text-center text-white" style="background: #FAD586">
-            <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti
-                millenial, dan
-                perkembangan Bakti Millenial yang lainnya.</p>
-            <div class="flex">
-                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-            </div>
-        </div> -->
     </div>
 </div>
 
-<div class="container-fluid p-5 text-center text-white" style="background: #FAD586">
-    <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti
-        millenial, dan
-        perkembangan Bakti Millenial yang lainnya.</p>
-    <div class="flex">
-        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-    </div>
-</div>
-</div>
-
-<script>
+    <script>
     $(document).ready(function() {
         var itemsMainDiv = ('.MultiCarousel');
         var itemsDiv = ('.MultiCarousel-inner');
@@ -414,6 +375,6 @@
         }
 
     });
-</script>
+    </script>
 
 <?= $this->endSection(); ?>
