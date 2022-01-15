@@ -3,78 +3,76 @@
 
 <head>
     <link rel="stylesheet" href="frontend/style/home.css">
-
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Viga&display=swap" rel="stylesheet">
     <style>
-    .MultiCarousel {
-        float: left;
-        overflow: hidden;
-        padding: 15px;
-        width: 100%;
-        position: relative;
-        margin: auto;
-    }
+        .MultiCarousel {
+            float: left;
+            overflow: hidden;
+            padding: 15px;
+            width: 100%;
+            position: relative;
+            margin: auto;
+        }
 
-    .MultiCarousel {
-        Height: 550px;
+        .MultiCarousel {
+            Height: 550px;
 
-    }
+        }
 
-    .MultiCarousel .MultiCarousel-inner {
-        transition: 1s ease all;
-        float: left;
-    }
+        .MultiCarousel .MultiCarousel-inner {
+            transition: 1s ease all;
+            float: left;
+        }
 
-    .MultiCarousel .MultiCarousel-inner .item {
-        float: left;
-    }
+        .MultiCarousel .MultiCarousel-inner .item {
+            float: left;
+        }
 
-    .MultiCarousel .MultiCarousel-inner .item>div {
-        text-align: center;
-        padding: 20px;
-        margin: 20px;
-        background: #E3F6D7;
-        color: #666;
-    }
+        .MultiCarousel .MultiCarousel-inner .item>div {
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            background: #E3F6D7;
+            color: #666;
+        }
 
-    .MultiCarousel .leftLst,
-    .MultiCarousel .rightLst {
-        position: absolute;
-        border-radius: 50%;
-        top: calc(50% - 20px);
-    }
+        .MultiCarousel .leftLst,
+        .MultiCarousel .rightLst {
+            position: absolute;
+            border-radius: 50%;
+            top: calc(50% - 20px);
+        }
 
-    .MultiCarousel .leftLst {
-        left: 0;
-    }
+        .MultiCarousel .leftLst {
+            left: 0;
+        }
 
-    .MultiCarousel .rightLst {
-        right: 0;
-    }
+        .MultiCarousel .rightLst {
+            right: 0;
+        }
 
-    .MultiCarousel .leftLst.over,
-    .MultiCarousel .rightLst.over {
-        pointer-events: none;
-        background: #ccc;
-    }
+        .MultiCarousel .leftLst.over,
+        .MultiCarousel .rightLst.over {
+            pointer-events: none;
+            background: #ccc;
+        }
 
-    .lead {
-        font-family: bold;
-    }
+        .lead {
+            font-family: bold;
+        }
 
-    .border {
-        text-align: center;
-        padding: 20px;
-        margin: 20px;
-        background: #E3F6D7;
-        color: #666;
-    }
+        .border {
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            background: #E3F6D7;
+            color: #666;
+        }
     </style>
 </head>
-
 
 <div class="container-fluid py-5">
     <div class="container">
@@ -106,11 +104,11 @@
                         <div class="pad15">
                             <p class="lead">Pendidikan</p>
                             <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-                            <p>Di bidang pendidikan, kurangnya motivasi belajar dan kesadaran akan pentingnya pendidikan
-                                merupakan permasalahan yang sering di keluhkan masyarakat sedikitnya lulusan Sekolah
-                                Menengah Atas di Lombok yang melanjutkan ke perguruan tinggi, serta sarana prasarana
-                                yang kurang memadai dan hampir tidak ada koleksi buku panduan pendidik di perpustakaan
-                                sekolah. </p>
+                            <p>Dalam bidang lingkungan, Lombok sebagai tempat tujuan destinasi wisata tentunya memiliki
+                                permasalahan pada sampah, dimana kurang adanya kesadaran akan kebersihan lingkungan dan
+                                juga pengelolaan sampah secara berkelanjutan. Selain sampah, limbah kotoran ternak juga
+                                menjadi masalah yang belum terselesaikan karena belum adanya langkah dalam pengolahan
+                                limbah tersebut. </p>
                         </div>
                     </div>
                     <div class="item">
@@ -151,22 +149,19 @@
                     </div>
                 </div>
                 <button class="btn btn-primary leftLst">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
                     </svg>
                 </button>
                 <button class="btn btn-primary rightLst">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                     </svg>
                 </button>
+                </div>
             </div>
         </div>
-
+    </div>
 
         <div class="container-fluid pt-2 p-3 my-3 text-grey-700" style="background: #FAD586">
             <div class="row">
@@ -192,34 +187,37 @@
             </div>
         </div>
 
-        <div class="row pt-2">
-            <div class="col-6 pt-0">
-                <img src="frontend2/images/satu.png" style="width:50%">
+
+            <div class="row pt-2">
+                <div class="col-6 pt-0">
+                    <img src="frontend2/images/satu.png" style="width:50%">
+                </div>
+                <div class="col-6 pt-0">
+                    <div class="flex">
+                        <div class="d-flex">
+                            <i class="material-icons">&#xe314;</i>
+                            <h4 class="card-title card-titles">Fully Funded</h4>
+                        </div>
+                        <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+                    </div>
+                    <div class="">
+                        <div class="d-flex">
+                            <i class="material-icons">&#xe314;</i>
+                            <h4 class="card-title card-titles">Partial Funded</h4>
+                        </div>
+                        <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
+                    </div>
+                    <div class="">
+                        <div class="d-flex">
+                            <i class="material-icons">&#xe314;</i>
+                            <h4 class="card-title card-titles">Self Funded</h4>
+                        </div>
+                        <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-6 pt-0">
-                <div class="flex">
-                    <div class="d-flex">
-                        <i class="material-icons">&#xe314;</i>
-                        <h4 class="card-title card-titles">Fully Funded</h4>
-                    </div>
-                    <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
-                </div>
-                <div class="">
-                    <div class="d-flex">
-                        <i class="material-icons">&#xe314;</i>
-                        <h4 class="card-title card-titles">Partial Funded</h4>
-                    </div>
-                    <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
-                </div>
-                <div class="">
-                    <div class="d-flex">
-                        <i class="material-icons">&#xe314;</i>
-                        <h4 class="card-title card-titles">Self Funded</h4>
-                    </div>
-                    <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
-                </div>
-            </div>
-        </div>
+
+        <!-- Lokasi -->
         <div class="container-fluid pt-2 m-9 my-3 text-grey-700" style="background: #FAD586">
             <div class="row">
                 <div class="d-flex justify-content-center align-items-center flex-column col-7">
@@ -241,7 +239,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="container">
             <center>
@@ -268,119 +265,113 @@
                 </div>
             </div>
         </div>
-    </div>
 </div>
 
-<script>
-$(document).ready(function() {
-    var itemsMainDiv = ('.MultiCarousel');
-    var itemsDiv = ('.MultiCarousel-inner');
-    var itemWidth = "";
+    <script>
+            $(document).ready(function() {
+                var itemsMainDiv = ('.MultiCarousel');
+                var itemsDiv = ('.MultiCarousel-inner');
+                var itemWidth = "";
 
-    $('.leftLst, .rightLst').click(function() {
-        var condition = $(this).hasClass("leftLst");
-        if (condition)
-            click(0, this);
-        else
-            click(1, this)
-    });
+                $('.leftLst, .rightLst').click(function() {
+                    var condition = $(this).hasClass("leftLst");
+                    if (condition)
+                        click(0, this);
+                    else
+                        click(1, this)
+                });
 
-    ResCarouselSize();
+                ResCarouselSize();
 
+                $(window).resize(function() {
+                    ResCarouselSize();
+                });
 
-
-
-    $(window).resize(function() {
-        ResCarouselSize();
-    });
-
-    //this function define the size of the items
-    function ResCarouselSize() {
-        var incno = 0;
-        var dataItems = ("data-items");
-        var itemClass = ('.item');
-        var id = 0;
-        var btnParentSb = '';
-        var itemsSplit = '';
-        var sampwidth = $(itemsMainDiv).width();
-        var bodyWidth = $('body').width();
-        $(itemsDiv).each(function() {
-            id = id + 1;
-            var itemNumbers = $(this).find(itemClass).length;
-            btnParentSb = $(this).parent().attr(dataItems);
-            itemsSplit = btnParentSb.split(',');
-            $(this).parent().attr("id", "MultiCarousel" + id);
+                //this function define the size of the items
+                function ResCarouselSize() {
+                    var incno = 0;
+                    var dataItems = ("data-items");
+                    var itemClass = ('.item');
+                    var id = 0;
+                    var btnParentSb = '';
+                    var itemsSplit = '';
+                    var sampwidth = $(itemsMainDiv).width();
+                    var bodyWidth = $('body').width();
+                    $(itemsDiv).each(function() {
+                        id = id + 1;
+                        var itemNumbers = $(this).find(itemClass).length;
+                        btnParentSb = $(this).parent().attr(dataItems);
+                        itemsSplit = btnParentSb.split(',');
+                        $(this).parent().attr("id", "MultiCarousel" + id);
 
 
-            if (bodyWidth >= 1200) {
-                incno = itemsSplit[2] - 2;
-                itemWidth = sampwidth / incno;
-            } else if (bodyWidth >= 992) {
-                incno = itemsSplit[2] - 2;
-                itemWidth = sampwidth / incno;
-            } else if (bodyWidth >= 768) {
-                incno = itemsSplit[1];
-                itemWidth = sampwidth / incno;
-            } else if (bodyWidth >= 480) {
-                incno = itemsSplit[1];
-                itemWidth = sampwidth / incno;
-            } else {
-                incno = itemsSplit[0];
-                itemWidth = sampwidth / incno;
-            }
-            $(this).css({
-                'transform': 'translateX(0px)',
-                'width': itemWidth * itemNumbers
+                        if (bodyWidth >= 1200) {
+                            incno = itemsSplit[2] - 2;
+                            itemWidth = sampwidth / incno;
+                        } else if (bodyWidth >= 992) {
+                            incno = itemsSplit[2] - 2;
+                            itemWidth = sampwidth / incno;
+                        } else if (bodyWidth >= 768) {
+                            incno = itemsSplit[1];
+                            itemWidth = sampwidth / incno;
+                        } else if (bodyWidth >= 480) {
+                            incno = itemsSplit[1];
+                            itemWidth = sampwidth / incno;
+                        } else {
+                            incno = itemsSplit[0];
+                            itemWidth = sampwidth / incno;
+                        }
+                        $(this).css({
+                            'transform': 'translateX(0px)',
+                            'width': itemWidth * itemNumbers
+                        });
+                        $(this).find(itemClass).each(function() {
+                            $(this).outerWidth(itemWidth);
+                        });
+
+                        $(".leftLst").addClass("over");
+                        $(".rightLst").removeClass("over");
+
+                    });
+                }
+
+                //this function used to move the items
+                function ResCarousel(e, el, s) {
+                    var leftBtn = ('.leftLst');
+                    var rightBtn = ('.rightLst');
+                    var translateXval = '';
+                    var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                    var values = divStyle.match(/-?[\d\.]+/g);
+                    var xds = Math.abs(values[4]);
+                    if (e == 0) {
+                        translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                        $(el + ' ' + rightBtn).removeClass("over");
+
+                        if (translateXval <= itemWidth / 2) {
+                            translateXval = 0;
+                            $(el + ' ' + leftBtn).addClass("over");
+                        }
+                    } else if (e == 1) {
+                        var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                        translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                        $(el + ' ' + leftBtn).removeClass("over");
+
+                        if (translateXval >= itemsCondition - itemWidth / 2) {
+                            translateXval = itemsCondition;
+                            $(el + ' ' + rightBtn).addClass("over");
+                        }
+                    }
+                    $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval +
+                        'px)');
+                }
+
+                //It is used to get some elements from btn
+                function click(ell, ee) {
+                    var Parent = "#" + $(ee).parent().attr("id");
+                    var slide = $(Parent).attr("data-slide");
+                    ResCarousel(ell, Parent, slide);
+                }
+
             });
-            $(this).find(itemClass).each(function() {
-                $(this).outerWidth(itemWidth);
-            });
-
-            $(".leftLst").addClass("over");
-            $(".rightLst").removeClass("over");
-
-        });
-    }
-
-
-    //this function used to move the items
-    function ResCarousel(e, el, s) {
-        var leftBtn = ('.leftLst');
-        var rightBtn = ('.rightLst');
-        var translateXval = '';
-        var divStyle = $(el + ' ' + itemsDiv).css('transform');
-        var values = divStyle.match(/-?[\d\.]+/g);
-        var xds = Math.abs(values[4]);
-        if (e == 0) {
-            translateXval = parseInt(xds) - parseInt(itemWidth * s);
-            $(el + ' ' + rightBtn).removeClass("over");
-
-            if (translateXval <= itemWidth / 2) {
-                translateXval = 0;
-                $(el + ' ' + leftBtn).addClass("over");
-            }
-        } else if (e == 1) {
-            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
-            translateXval = parseInt(xds) + parseInt(itemWidth * s);
-            $(el + ' ' + leftBtn).removeClass("over");
-
-            if (translateXval >= itemsCondition - itemWidth / 2) {
-                translateXval = itemsCondition;
-                $(el + ' ' + rightBtn).addClass("over");
-            }
-        }
-        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval +
-            'px)');
-    }
-
-    //It is used to get some elements from btn
-    function click(ell, ee) {
-        var Parent = "#" + $(ee).parent().attr("id");
-        var slide = $(Parent).attr("data-slide");
-        ResCarousel(ell, Parent, slide);
-    }
-
-});
-</script>
-
+    </script>
 <?= $this->endSection(); ?>
