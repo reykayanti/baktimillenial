@@ -210,7 +210,6 @@
                 </div>
             </div>
         </div>
-        
         <!-- Lokasi -->
         <div class="container-fluid pt-2 m-9 my-3 text-grey-700" style="background: #FAD586">
             <div class="row">
@@ -372,4 +371,4 @@
 });
 </script>
 
-<?= $this->endSection(); ?>
+    <?= $this->endSection(); ?>
