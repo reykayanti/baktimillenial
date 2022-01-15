@@ -172,7 +172,8 @@
             <div class="row">
                 <div class="d-flex justify-content-center align-items-center flex-column col-7">
                     <h1>BAKTI MILLENIAL</h1>
-                    <p>Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial Connect (IMC).
+                    <p class="text-justify">Bakti Milenial merupakan sebuah program dibawah naungan Indonesia Milenial
+                        Connect (IMC).
                         Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
                         berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
                         kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
