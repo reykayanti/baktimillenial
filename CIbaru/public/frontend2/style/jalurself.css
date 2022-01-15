@@ -1,6 +1,5 @@
-.container {
-  text-align: center;
-  margin-top: 100px;
+.warna-footer {
+  background-color: #fad586;
 }
 
 .title {
@@ -19,10 +18,18 @@
   text-shadow: 4px 4px 4px #fad586;
 }
 
-.card-text {
-  margin: auto;
+.judul {
+  font-family: acme;
 }
-.btn {
-  background: #fad586;
-  border-radius: 50px;
+
+.judul2 {
+  margin-left: 200px;
+  padding-top: 20px;
+}
+
+/* responsive */
+@media (max-width: 992px) {
+  .judul2 {
+    margin-left: 50px;
+  }
 }

@@ -3,57 +3,58 @@
 
 <head>
     <link rel="stylesheet" href="frontend/style/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <style>
-    .MultiCarousel {
-        float: left;
-        overflow: hidden;
-        padding: 15px;
-        width: 100%;
-        position: relative;
-        margin: auto;
-    }
+        .MultiCarousel {
+            float: left;
+            overflow: hidden;
+            padding: 15px;
+            width: 100%;
+            position: relative;
+            margin: auto;
+        }
 
-    .MultiCarousel {
-        Height: 189px;
-    }
+        .MultiCarousel {
+            Height: 189px;
+        }
 
-    .MultiCarousel .MultiCarousel-inner {
-        transition: 1s ease all;
-        float: left;
-    }
+        .MultiCarousel .MultiCarousel-inner {
+            transition: 1s ease all;
+            float: left;
+        }
 
-    .MultiCarousel .MultiCarousel-inner .item {
-        float: left;
-    }
+        .MultiCarousel .MultiCarousel-inner .item {
+            float: left;
+        }
 
-    .MultiCarousel .MultiCarousel-inner .item>div {
-        text-align: center;
-        padding: 10px;
-        margin: 10px;
-        background: #f1f1f1;
-        color: #666;
-    }
+        .MultiCarousel .MultiCarousel-inner .item>div {
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            background: #f1f1f1;
+            color: #666;
+        }
 
-    .MultiCarousel .leftLst,
-    .MultiCarousel .rightLst {
-        position: absolute;
-        border-radius: 50%;
-        top: calc(50% - 20px);
-    }
+        .MultiCarousel .leftLst,
+        .MultiCarousel .rightLst {
+            position: absolute;
+            border-radius: 50%;
+            top: calc(50% - 20px);
+        }
 
-    .MultiCarousel .leftLst {
-        left: 0;
-    }
+        .MultiCarousel .leftLst {
+            left: 0;
+        }
 
-    .MultiCarousel .rightLst {
-        right: 0;
-    }
+        .MultiCarousel .rightLst {
+            right: 0;
+        }
 
-    .MultiCarousel .leftLst.over,
-    .MultiCarousel .rightLst.over {
-        pointer-events: none;
-        background: #ccc;
-    }
+        .MultiCarousel .leftLst.over,
+        .MultiCarousel .rightLst.over {
+            pointer-events: none;
+            background: #ccc;
+        }
     </style>
 </head>
 
@@ -80,45 +81,46 @@
             </div>
         </div>
     </div>
+</div>
 
-    <div class="container">
-        <h2>Projects</h2>
-        <div class="row">
-            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
-                <div class="MultiCarousel-inner">
-                    <div class="item">
-                        <div class="pad15">
-                            <p class="lead">Multi Item Carousel</p>
-                            <p>₹ 1</p>
-                            <p>₹ 6000</p>
-                            <p>50% off</p>
-                        </div>
+<div class="container">
+    <h2>Projects</h2>
+    <div class="row">
+        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+            <div class="MultiCarousel-inner">
+                <div class="item">
+                    <div class="pad15">
+                        <p class="lead">Multi Item Carousel</p>
+                        <p>₹ 1</p>
+                        <p>₹ 6000</p>
+                        <p>50% off</p>
                     </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <p class="lead">Multi Item Carousel</p>
-                            <p>₹ 1</p>
-                            <p>₹ 6000</p>
-                            <p>50% off</p>
-                        </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                        <p class="lead">Multi Item Carousel</p>
+                        <p>₹ 1</p>
+                        <p>₹ 6000</p>
+                        <p>50% off</p>
                     </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <p class="lead">Multi Item Carousel</p>
-                            <p>₹ 1</p>
-                            <p>₹ 6000</p>
-                            <p>50% off</p>
-                        </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                        <p class="lead">Multi Item Carousel</p>
+                        <p>₹ 1</p>
+                        <p>₹ 6000</p>
+                        <p>50% off</p>
                     </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <p class="lead">Multi Item Carousel</p>
-                            <p>₹ 1</p>
-                            <p>₹ 6000</p>
-                            <p>50% off</p>
-                        </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                        <p class="lead">Multi Item Carousel</p>
+                        <p>₹ 1</p>
+                        <p>₹ 6000</p>
+                        <p>50% off</p>
                     </div>
-                    <!-- <div class="item">
+                </div>
+                <!-- <div class="item">
                     <div class="pad15">
                         <p class="lead">Multi Item Carousel</p>
                         <p>₹ 1</p>
@@ -126,85 +128,88 @@
                         <p>50% off</p>
                     </div>
                 </div>-->
-                </div>
-                <button class="btn btn-primary leftLst">
-                    << /button>
-                        <button class="btn btn-primary rightLst">></button>
             </div>
-        </div>
-
-
-        <div class="container-fluid pt-2 p-3 my-3 text-white" style="background: #FAD586">
-            <div class="row">
-                <div class="d-flex justify-content-center  align-items-center flex-column col-6">
-                    <h1>BAKTI MILLENIAL</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut
-                        aliquip
-                        ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore
-                        eu
-                        fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia
-                        deserunt
-                        mollit
-                        anim id est laborum.</p>
-                    <a href="#" class="btn btn-warning">Read more</a>
-                </div>
-                <div class="col-2">
-                    <img src="frontend2/images/satu.png" width="400" height="400">
-                </div>
-            </div>
-        </div>
-
-        <div class="row pt-2">
-            <div class="col-6 pt-0">
-                <img src="frontend2/images/satu.png" style="width:50%">
-            </div>
-            <div class="col-6 pt-0">
-                <div class="flex">
-                    <div class="d-flex">
-                        <i class="material-icons">&#xe314;</i>
-                        <h4 class="card-title card-titles">Fully Funded</h4>
-                    </div>
-                    <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
-                </div>
-                <div class="">
-                    <div class="d-flex">
-                        <i class="material-icons">&#xe314;</i>
-                        <h4 class="card-title card-titles">Partial Funded</h4>
-                    </div>
-                    <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
-                </div>
-                <div class="">
-                    <div class="d-flex">
-                        <i class="material-icons">&#xe314;</i>
-                        <h4 class="card-title card-titles">Self Funded</h4>
-                    </div>
-                    <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid p-5 text-center text-white" style="background: #FAD586">
-            <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti
-                millenial, dan
-                perkembangan Bakti Millenial yang lainnya.</p>
-            <div class="flex">
-                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-                <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
-            </div>
+            <button class="btn btn-primary leftLst">
+                << /button>
+                    <button class="btn btn-primary rightLst">></button>
         </div>
     </div>
+</div>
 
-    <script>
+
+<div class="container-fluid pt-2 p-3 my-3 text-white" style="background: #FAD586">
+    <div class="row">
+        <!-- <div class="d-flex justify-content-center align-items-center flex-column col-6"> -->
+        <div class="col-7 text-justify py-5 ms-5 m-auto">
+            <h1 class="text-end">BAKTI MILLENIAL</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut
+                labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut
+                aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum
+                dolore
+                eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia
+                deserunt
+                mollit
+                anim id est laborum.</p>
+            <a href="#" class="btn btn-success">Read more</a>
+        </div>
+        <div class="col-3 m-auto">
+            <img src="frontend2/images/BINTAN.svg" width="400" height="400">
+        </div>
+    </div>
+</div>
+
+<div class="row pt-2">
+    <div class="col-6 pt-0">
+        <img src="frontend2/images/ilustrator.svg" class="w-75">
+    </div>
+    <div class="col-6 pt-0">
+        <div class="flex">
+            <div class="d-flex">
+                <i class="material-icons">&#xe314;</i>
+                <h4 class="card-title card-titles">Fully Funded</h4>
+            </div>
+            <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+        </div>
+        <div class="">
+            <div class="d-flex">
+                <i class="material-icons">&#xe314;</i>
+                <h4 class="card-title card-titles">Partial Funded</h4>
+            </div>
+            <p class="card-text">Diberikan potongan biaya jalur beasiswa.</p>
+        </div>
+        <div class="">
+            <div class="d-flex">
+                <i class="material-icons">&#xe314;</i>
+                <h4 class="card-title card-titles">Self Funded</h4>
+            </div>
+            <p class="card-text">Keseluruhan biaya ditanggung pribadi.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-5 text-center text-white" style="background: #FAD586">
+    <p>Ikuti kami di sosial media untuk mendapatkan informasi mengenai event, volunteer, bakti
+        millenial, dan
+        perkembangan Bakti Millenial yang lainnya.</p>
+    <div class="flex">
+        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
+        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
+        <img src="frontend2/images/satu.png" class="rounded-circle" width="70" height="70">
+    </div>
+</div>
+</div>
+
+<script>
     $(document).ready(function() {
         var itemsMainDiv = ('.MultiCarousel');
         var itemsDiv = ('.MultiCarousel-inner');
@@ -313,6 +318,6 @@
         }
 
     });
-    </script>
+</script>
 
-    <?= $this->endSection(); ?>
+<?= $this->endSection(); ?>

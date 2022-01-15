@@ -17,16 +17,24 @@
                 <div class="col-md-4 col-sm-6 pt-5" id="card-logo">
                     <img src="frontend2/images/logomm.svg" width="200" height="100">
                 </div>
-                <div class="col-md-4 col-sm-6 pt-5 ">
-                    <div>
+                <div class="col-md-4 col-sm-6 pt-5">
+                    <div class="col-md-3">
                         <h4 class="card-title">Contact Us</h4>
-                        <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+                        <img src="frontend2/images/email.svg" alt="">
+                        <p>kamifoundation@gmail.com</p>
+                        <img src="frontend2/images/telp.svg" alt="">
+                        <p>+6287 8080 9090</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 pt-5 ">
                     <div class="card-body">
                         <h4 class="card-title">Follow Us</h4>
-                        <p class="card-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
+                        <div class="contact">
+                            <img src="frontend2/images/insta.svg" alt="">
+                            <img src="frontend2/images/youtube.svg" alt="">
+                            <img src="frontend2/images/tiktok.svg" alt="">
+                            <img src="frontend2/images/linkedin.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
