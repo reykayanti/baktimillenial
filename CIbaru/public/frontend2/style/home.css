@@ -23,3 +23,11 @@
 .col-sm-4 {
   text-align: center;
 }
+
+/* Height Card */
+.MultiCarousel-inner .item {
+  height: 600px;
+}
+.MultiCarousel-inner .item .pad15 {
+  height: 100%;
+}

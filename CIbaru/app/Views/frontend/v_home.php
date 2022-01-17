@@ -98,8 +98,8 @@
             <h2>Projects</h2>
         </center>
         <div class="row">
-            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
-                <div class="MultiCarousel-inner">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000" style="height: auto;">
+                <div class="MultiCarousel-inner" style="height: auto;">
                     <div class="item">
                         <div class="pad15">
                             <p class="lead">Pendidikan</p>
@@ -131,7 +131,7 @@
                                 pemahaman masyarakat mengenai penerapan pola hidup bersih dan sehat, serta pengetahuan
                                 tentang pendidikan menjadi keresahan tersendiri. Kesehatan psikologis juga menjadi
                                 permasalahan terutama pada pernikahan anak usia dini yang banyak terjadi di Lombok.
-                            <p>
+                            </p>
                         </div>
                     </div>
                     <div class="item">
