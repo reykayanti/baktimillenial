@@ -18,12 +18,16 @@
                     <img src="frontend2/images/logomm.svg" width="200" height="100">
                 </div>
                 <div class="col-md-4 col-sm-6 pt-5">
-                    <div class="col-md-3">
+                    <div class="col-md-3 box-contact">
                         <h4 class="card-title">Contact Us</h4>
-                        <img src="frontend2/images/email.svg" alt="">
-                        <p>kamifoundation@gmail.com</p>
-                        <img src="frontend2/images/telp.svg" alt="">
-                        <p>+6287 8080 9090</p>
+                        <div class="box-contact-us">
+                            <img src="frontend2/images/email.svg" alt="">
+                            <p>kamifoundation@gmail.com</p>
+                        </div>
+                        <div class="box-contact-us">
+                            <img src="frontend2/images/telp.svg" alt="">
+                            <p>+6287 8080 9090</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 pt-5 ">

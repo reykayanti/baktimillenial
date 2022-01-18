@@ -31,10 +31,25 @@
   margin-top: 50px;
 }
 
-.contact {
-  margin-left: -250px;
+.card-body .contact {
+  display: flex;
+  margin: 0 1rem 0 0;
+  /* margin-left: -250px; */
+}
+.card-body .contact img {
+  margin: 0 0.3rem 0 0;
 }
 
+/* contact us */
+.box-contact .box-contact-us {
+  margin: 1rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+.box-contact-us img {
+  margin-right: 10px;
+}
 /* responsive breakpoints*/
 /* screen mobile phone */
 @media (min-width: 576px) {

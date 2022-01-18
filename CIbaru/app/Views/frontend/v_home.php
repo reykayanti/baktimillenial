@@ -75,28 +75,30 @@
 </head>
 
 <div class="container-fluid py-5">
-    <div class="container">
-        <div class="row" style="margin-bottom:-10rem">
+    <div class="container" style="height: 70vh;">
+        <div class="row">
             <div class="col-lg-6 col-md-12 mt-md-5">
-                <h1 class="about text-center">ABOUT US</h1>
+                <h1 class="about text-left">ABOUT US</h1>
                 <p>Yayasan Karya Anak Milenial atau Karya Anak Milenial Indonesia
                     (KAMI) Foundation merupakan wadah bagi para pemuda Indonesia,
                     baik yang berada di dalam maupun di luar negeri untuk mengembangkan diri dan menuangkan ide,
                     inovasi serta karyanya dalam kehidupan bermasyarakat.
                     Pada Juli 2020, Karya Anak Milenial Indonesia (KAMI)
                     resmi legal membentuk sebuah yayasan dengan Bapak Sandiaga S. Uno sebagai Dewan Penasehat.</p>
-                <button type="button" class="rounded-pill btn-warning">Info Lanjut</button>
+                <button type="button" id="button-about" class="rounded-pill btn-warning d-flex">Selengkapnya</button>
             </div>
-            <div class="col-lg-6 col-md-12">
-                <img src="frontend2/images/aboutus1.svg" width="600" height="600">
+            <div class="col-lg-6 col-md-12" style="position:relative;top:-4rem;">
+                <img src="frontend2/images/aboutus1.svg" width="650" height="650">
             </div>
         </div>
     </div>
 
     <div class="container">
-        <center>
-            <h2>Projects</h2>
-        </center>
+            <div class="text-program">
+                <center>
+                    <h2>Program</h2>
+                </center>
+            </div>
         <div class="row">
             <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000" style="height: auto;">
                 <div class="MultiCarousel-inner" style="height: auto;">
@@ -109,6 +111,11 @@
                                 juga pengelolaan sampah secara berkelanjutan. Selain sampah, limbah kotoran ternak juga
                                 menjadi masalah yang belum terselesaikan karena belum adanya langkah dalam pengolahan
                                 limbah tersebut. </p>
+                            <div class="read-more-box">
+                                <a href=""  class="read-more">
+                                    <p><i class="fas fa-angle-double-right"></i> Read More</p>
+                                </a>
+                            </div>      
                         </div>
                     </div>
                     <div class="item">
@@ -120,6 +127,11 @@
                                 juga pengelolaan sampah secara berkelanjutan. Selain sampah, limbah kotoran ternak juga
                                 menjadi masalah yang belum terselesaikan karena belum adanya langkah dalam pengolahan
                                 limbah tersebut. </p>
+                            <div class="read-more-box">
+                                <a href="" class="read-more">
+                                    <p><i class="fas fa-angle-double-right"></i> Read More</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
@@ -132,6 +144,11 @@
                                 tentang pendidikan menjadi keresahan tersendiri. Kesehatan psikologis juga menjadi
                                 permasalahan terutama pada pernikahan anak usia dini yang banyak terjadi di Lombok.
                             </p>
+                            <div class="read-more-box">
+                                <a href="" class="read-more">
+                                    <p><i class="fas fa-angle-double-right"></i> Read More</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
@@ -142,21 +159,20 @@
                                 dan juga kreatif untuk dapat membuat karya sehingga menjadi nilai jual kepada para
                                 wisatawan dan juga masyarakat yang berkunjung. Perlu adanya pelatihan atau pembinaan
                                 dalam meningkatkannya sehingga bisa muncul ide kreatif dan juga mampu menjadi manusia
-                                yang unggul. Proses pemasaran produk, terlalu berfokus pada satu komoditas, kurang bisa
-                                memanfaatkan media sosial/digitalisasi dalam memasarkan produk, kurangnya kreativitas
-                                dalam mengolah </p>
+                                yang unggul.  </p>
+                            <div class="read-more-box">
+                                <a href="" class="read-more">
+                                    <p><i class="fas fa-angle-double-right"></i> Read More</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary leftLst">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-                    </svg>
+                <button id="button-program-left" class="btn btn-primary leftLst button-program">
+                    <i class="fas fa-caret-left"></i>
                 </button>
-                <button class="btn btn-primary rightLst">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                    </svg>
+                <button id="button-program-right" class="btn btn-primary rightLst button-program">
+                    <i class="fas fa-caret-right"></i>
                 </button>
                 </div>
             </div>
@@ -179,7 +195,7 @@
                         diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
                         Development”.
                         Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
-                    <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
+                        <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
                 </div>
                 <div class="col-2">
                     <img src="frontend2/images/lombok.png" width="400" height="400">

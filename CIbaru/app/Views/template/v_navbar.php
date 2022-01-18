@@ -8,6 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="frontend2/style/nav-bar.css">
     <title>Bakti Millenial</title>
     <style>
@@ -22,7 +24,7 @@
 
 <body>
     <!-- Navbar content -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow p-3 w-auto" style="background-color: #96bb7c; border-radius: 0px 0px 40px 40px; width: 100px; z-index: 2;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow p-3 w-auto navigasi-container" style="background-color: #96bb7c; border-radius: 0px 0px 40px 40px; width: 100px; z-index: 9;height:65px;filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));">
         <div class="container-fluid">
             <button class="navbar-toggler" id="nav-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,32 +37,32 @@
                     <li class="me-5">
                         <!-- <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="Chome">Home</a> -->
                         <!-- <a id="home" class="nav-link < ($this->uri->segment(1)==='/')?'active':''?>" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a> -->
-                        <a id="home" class="nav-link active" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
+                        <a id="home" class="nav-link active" style="color:#f9f9f9" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
                     </li>
                     <li class="me-5">
-                        <a id="galery" class="nav-link" href="<?= base_url('program'); ?>">Blog</a>
+                        <a id="galery" class="nav-link" style="color:#f9f9f9" href="<?= base_url('program'); ?>">Blog</a>
                     </li>
                     <li class="nav-item dropdown me-5">
-                        <a class="nav-link dropdown-toggle" href="<?= base_url('jalurfully'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jalur</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #96BB7C;">
-                            <li><a class="dropdown-item" href="<?= base_url('jalurfully'); ?>">Fully Funded</a></li>
-                            <li><a class="dropdown-item" href="<?= base_url('jalurspecial'); ?>">Special Funded</a></li>
-                            <li><a class="dropdown-item" href="<?= base_url('jalurself'); ?>">Self Funded</a></li>
+                        <a class="nav-link dropdown-toggle" style="color:#f9f9f9" href="<?= base_url('jalurfully'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jalur</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #96BB7C;top:3.5rem;">
+                            <li><a class="dropdown-item" href="<?= base_url('jalurfully'); ?>"><i class="fas fa-caret-right"></i> Fully Funded</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url('jalurspecial'); ?>"><i class="fas fa-caret-right"></i> Special Funded</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url('jalurself'); ?>"><i class="fas fa-caret-right"></i> Self Funded</a></li>
                         </ul>
                     </li>
                     <li class="me-5">
-                        <a id="galery" class="nav-link" href="<?= base_url('gallery'); ?>">Contact</a>
+                        <a id="galery" style="color:#f9f9f9" class="nav-link" href="<?= base_url('gallery'); ?>">Contact</a>
                     </li>
                     <li>
                         <!-- make href a jgn button href -->
                         <!-- <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;">Sign</button> -->
-                        <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;"><a id="admin" class="nav-link" href="<?= base_url('login'); ?>" style="width: 100%;height: 20px;display: flex;justify-content: center;align-items: center;">Sign</a></button>
+                        <button type="button" class="btn btn-light h-1 mt-1 ms-auto ms-lg-5" href="#" style="background: #d6efc7; border-radius: 40px; width: 122px;"><a id="admin" class="nav-link" href="<?= base_url('login'); ?>" style="width: 100%;height: 20px;display: flex;justify-content: center;align-items: center;position:relative;top:0;">Sign Up</a></button>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <!-- <form class="d-flex">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </div>
         </div>
