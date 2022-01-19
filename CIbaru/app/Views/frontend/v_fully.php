@@ -90,31 +90,31 @@
 
 <div class="container-fluid text-center py-5" style="background-color: #FAD586;">
     <div class="row">
-        <div class="col-4 py-5 judul">
-            <h1>Tata Cara</h1>
+        <div class="judul col-4 py-5">
+            <h1 class="judul">Tata Cara</h1>
             <h1 class="judul2">Pendaftaran</h1>
         </div>
-        <div class="col-7 text-justify">
-            <p>Mengunduh buku panduan di bit.ly/berkas-MM1</p>
-            <p>Follow akun Instagram @kamifoundation @imconnectid serta subscribe youtube IMCONNECTID TV</p>
-            <p>Share poster dan broadcast Milenial Mengabdi ke 7 grup whatsapp/line kamu. Bahan dapat di download di link bit.ly/berkas-MM1</p>
-            <p>Upload foto twibbon dan poster kegiatan yang dapat didownload pada link bit.ly/twibbon-MM1. Gunakan caption yang telah disediakan, serta mention 7 temanmu </p>
-            <p>Mengisi formulir pendaftaran yang telah disediakan melalui bit.ly/daftar-MM1</p>
+        <div class="col-7 text-justify m-auto">
+            <p>● Mengunduh buku panduan di bit.ly/berkas-MM1</p>
+            <p>● Follow akun Instagram @kamifoundation @imconnectid serta subscribe youtube IMCONNECTID TV</p>
+            <p>● Share poster dan broadcast Milenial Mengabdi ke 7 grup whatsapp/line kamu. Bahan dapat di download di link bit.ly/berkas-MM1</p>
+            <p>● Upload foto twibbon dan poster kegiatan yang dapat didownload pada link bit.ly/twibbon-MM1. Gunakan caption yang telah disediakan, serta mention 7 temanmu </p>
+            <p>● Mengisi formulir pendaftaran yang telah disediakan melalui bit.ly/daftar-MM1</p>
         </div>
     </div>
 </div>
 
 <div>
-    <div class="judul3 pt-5">
-        <h1>Skema Seleksi</h1>
+    <div>
+        <h1 class="judul3 pt-5">Skema Seleksi</h1>
     </div>
     <div class="box">
         <div class=" ms-5 me-5 py-5 text-justify">
-            <p>Seleksi Berkas berdasarkan jawaban pertanyaan yang diisi dan kelengkapan dari berkas</p>
-            <p>Setiap volunteer yang dinyatakan lulus seleksi berkas akan mengikuti assessment test tulis dengan membayar biaya commitment fee (termasuk donasi) sebesar Rp80.000</p>
-            <p>Leaderless Group Discussion (LGD) & Interview online</p>
-            <p>Pengumuman Akhir</p>
-            <p>Konfirmasi Keberangkatan</p>
+            <p>● Seleksi Berkas berdasarkan jawaban pertanyaan yang diisi dan kelengkapan dari berkas</p>
+            <p>● Setiap volunteer yang dinyatakan lulus seleksi berkas akan mengikuti assessment test tulis dengan membayar biaya commitment fee (termasuk donasi) sebesar Rp80.000</p>
+            <p>● Leaderless Group Discussion (LGD) & Interview online</p>
+            <p>● Pengumuman Akhir</p>
+            <p>● Konfirmasi Keberangkatan</p>
         </div>
     </div>
 </div>
@@ -200,6 +200,22 @@
             </tr>
         </tbody>
     </table>
+</div>
+
+<div class="pb-5">
+    <div>
+        <h1 class="judul3">Peserta yang tidak Lulus Fully Funded</h1>
+    </div>
+    <div class="box">
+        <div class=" ms-5 me-5 py-5 text-justify">
+            <p>● E-certificate Nasional bernama sebagai apresiasi dan donatur yang akan dikirimkan melalui email masing-masing bertanda tangan Kemenpora</p>
+            <p>● Video Edukatif dari public figure, seperti Najwa Shihab, Sandiaga Uno, Merry Riana, Sherly Annavita, Hendy Setiono, Eza Hazami, Fardi Yandi dan masih banyak lagi.</p>
+            <p>● E-certificate setelah menyelesaikan video edukatif</p>
+            <p>● Potongan 150K untuk mengikuti program Milenial Mengabdi jalur Self Funded</p>
+            <p>★ Bagi Volunteer yang nilai tes tulis Assessment Test berada pada daftar 10 orang dibawah volunteer lolos, maka akan mendapat potongan harga dan tetap dapat mengikuti program Milenial Mengabdi, akan diumumkan melalui email/nomor yang dapat dihubungi masing-masing, paling lambat 7 hari setelah pengumuman volunteer yang lolos Fully Funded</p>
+            <p>★ Volunteer telah berdonasi pada Assessment Test, digunakan untuk kegiatan sosial selama di Lombok. Dan sertifikat dikirim paling lambat 2 minggu setelah program berlangsung </p>
+        </div>
+    </div>
 </div>
 
 <?= $this->endSection(); ?>

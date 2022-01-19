@@ -30,12 +30,12 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow p-3 w-auto navigasi-container" style="background-color: #96bb7c; border-radius: 0px 0px 40px 40px; width: 100px; z-index: 9;height:65px;filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));">
         <div class="container-fluid">
             <!-- <button class="navbar-toggler" id="nav-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <div class="mobile-bar">
-                    <span class="mobile-bar1 mobile-bar-all"></span>
-                    <span class="mobile-bar2 mobile-bar-all"></span>
-                    <span class="mobile-bar3 mobile-bar-all"></span>
-                </div>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <div class="mobile-bar">
+                <span class="mobile-bar1 mobile-bar-all"></span>
+                <span class="mobile-bar2 mobile-bar-all"></span>
+                <span class="mobile-bar3 mobile-bar-all"></span>
+            </div>
             <!-- </button> -->
             <a class="navbar-brand ms-5" href="<?= base_url('/'); ?>">
                 <img src="frontend2/images/logomm.svg" style="width: 45px; height: 45px;">
@@ -48,7 +48,7 @@
                         <a id="home" class="nav-link active" style="color:#f9f9f9" id="nav-btn" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
                     </li>
                     <li class="me-5">
-                        <a id="galery" class="nav-link" style="color:#f9f9f9" href="<?= base_url('program'); ?>">Blog</a>
+                        <a id="galery" class="nav-link" style="color:#f9f9f9" href="<?= base_url('artikel'); ?>">Blog</a>
                     </li>
                     <li class="nav-item dropdown me-5">
                         <a class="nav-link dropdown-toggle" style="color:#f9f9f9" href="<?= base_url('jalurfully'); ?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jalur</a>
@@ -92,13 +92,13 @@
         //     });
         // });
 
-        $(document).ready(function () {
-            $('.mobile-bar').click(function () {
-            $('#navbarSupportedContent').toggleClass('active');
-            $('.mobile-bar1').toggleClass('active');
-            $('.mobile-bar2').toggleClass('active');
-            $('.mobile-bar3').toggleClass('active');
-            // $('.a').toggleClass('active');
+        $(document).ready(function() {
+            $('.mobile-bar').click(function() {
+                $('#navbarSupportedContent').toggleClass('active');
+                $('.mobile-bar1').toggleClass('active');
+                $('.mobile-bar2').toggleClass('active');
+                $('.mobile-bar3').toggleClass('active');
+                // $('.a').toggleClass('active');
             });
         });
 
