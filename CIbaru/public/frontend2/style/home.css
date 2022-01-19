@@ -177,10 +177,38 @@ body {
   padding-top: 10px;
 }
 
-.button-about-info {
+#syarat-box {
+  width: 800px;
+  height: 220px;
+}
+
+#syarat-text {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.button-about-selengkapnya {
   position: relative;
-  width: 100%;
+  width: 200px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+a#selengkapnya {
+  font-weight: 500;
+  font-size: 26px;
+  padding: 2 2 2 2rem;
+  text-decoration: none;
+  width: 200px;
   height: 50px;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.45rem auto;
 }
 
 .button-about-info a {
@@ -195,4 +223,23 @@ body {
   line-height: 24px;
   color: #fff;
   text-decoration: none;
+}
+
+.jalur-text {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 0.45rem auto;
+}
+
+#orange-satu {
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-right: -50px;
+}
+#orange-dua {
+  padding-right: 50px;
+  padding-left: 100px;
 }
