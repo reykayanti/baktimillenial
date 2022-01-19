@@ -6,8 +6,14 @@
 </head>
 
 <div class="container py-5">
-    <h1 class="title text-center">MILENIAL MENGABDI #1</h1>
-    <h1 class="title text-center">LOMBOK</h1>
+    <!-- <h1 class="title text-center">MILENIAL MENGABDI #1</h1>
+    <h1 class="title text-center">LOMBOK</h1> -->
+    <div class="box-search">
+        <div class="search-text">
+            <input type="text" name="" id="" placeholder="Search..." title="Cari Artikel Di Sini">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
 
     <div class="row">
         <div class="posisi-section">
