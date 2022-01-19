@@ -106,7 +106,7 @@ nav ul {
     flex-direction: column;
   }
   .container-fluid .menu-nav {
-    display: flex !important;
+    display: block;
   }
   .container-fluid .menu-nav .navbar-nav {
     margin: auto;
