@@ -40,11 +40,13 @@ $routes->get('/', 'Chome::index');
 $routes->get('/login', 'Clogin::index');
 
 
-// Gallery
-$routes->get('/gallery', 'Cgalery::gallery');
+// Contact
+$routes->get('/contact', 'Ccontact::index');
 // program
-$routes->get('/program', 'Cprogram::program');
-$routes->get('/program/detail-program', 'Cdetailprogram::index');
+$routes->get('/program', 'Cprogram::index');
+// artikel
+$routes->get('/artikel', 'Cartikel::artikel');
+$routes->get('/artikel/detail-artikel', 'Cdetailartikel::index');
 // pendaftaran
 $routes->get('/pendaftaran', 'Cpendaftaran::index');
 // Jalur

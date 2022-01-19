@@ -28,7 +28,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="Cdetailprogram" class="btn btn-primary" img src="frontend2/images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="Cdetailartikel" class="btn btn-primary" img src="frontend2/images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
         </div>
 
@@ -45,7 +45,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="Cdetailprogram" class="btn btn-primary" img src="images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="Cdetailartikel" class="btn btn-primary" img src="images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
@@ -72,7 +72,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="Cdetailprogram" class="btn btn-primary" img src="frontend2/images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="Cdetailartikel" class="btn btn-primary" img src="frontend2/images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
         </div>
 
@@ -89,7 +89,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                     deserunt mollit anim id est laborum.
                 </p>
-                <a href="Cdetailprogram" class="btn btn-primary" img src="frontend2/images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
+                <a href="Cdetailartikel" class="btn btn-primary" img src="frontend2/images/READ.svg" style="background: #184D47; font-size:x-small;">Read More</a>
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
