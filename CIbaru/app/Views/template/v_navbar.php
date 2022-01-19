@@ -59,7 +59,7 @@
                         </ul>
                     </li>
                     <li class="me-5">
-                        <a id="galery" style="color:#f9f9f9" class="nav-link" href="<?= base_url('gallery'); ?>">Contact</a>
+                        <a id="galery" style="color:#f9f9f9" class="nav-link" href="<?= base_url('contact'); ?>">Contact</a>
                     </li>
                     <li>
                         <!-- make href a jgn button href -->

@@ -90,11 +90,11 @@
 
 <div class="container-fluid text-center py-5" style="background-color: #FAD586;">
     <div class="row">
-        <div class="judul col-4 py-5">
+        <div class="judul col-lg-4 py-5">
             <h1 class="judul">Tata Cara</h1>
             <h1 class="judul2">Pendaftaran</h1>
         </div>
-        <div class="col-7 text-justify m-auto">
+        <div class="col-lg-7 text-justify m-auto">
             <p>● Mengunduh buku panduan di bit.ly/berkas-MM1</p>
             <p>● Follow akun Instagram @kamifoundation @imconnectid serta subscribe youtube IMCONNECTID TV</p>
             <p>● Share poster dan broadcast Milenial Mengabdi ke 7 grup whatsapp/line kamu. Bahan dapat di download di link bit.ly/berkas-MM1</p>

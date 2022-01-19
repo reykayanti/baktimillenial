@@ -40,8 +40,8 @@ $routes->get('/', 'Chome::index');
 $routes->get('/login', 'Clogin::index');
 
 
-// Gallery
-// $routes->get('/gallery', 'Cgalery::gallery');
+// Contact
+$routes->get('/contact', 'Ccontact::index');
 // program
 $routes->get('/program', 'Cprogram::index');
 // artikel

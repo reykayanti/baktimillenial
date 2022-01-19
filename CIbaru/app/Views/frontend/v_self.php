@@ -60,11 +60,11 @@
 
 <div class="container-fluid text-center py-5" style="background-color: #FAD586;">
     <div class="row">
-        <div class="col-4 pt-3 judul">
+        <div class="col-lg-4 pt-3 judul">
             <h1 class="judul">Skema</h1>
             <h1 class="judul2">Seleksi</h1>
         </div>
-        <div class="col-7 text-justify m-auto">
+        <div class="col-lg-7 text-justify m-auto">
             <p>● Peserta membayar biaya pendaftaran sebesar Rp25.000 dan mengisi kelengkapan berkas</p>
             <p>● Tanpa Seleksi</p>
             <p>● Pengumuman melalui email dan mendapat konfirmasi melalui WhatsApp dari official akun Milenial Mengabdi</p>

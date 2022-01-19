@@ -6,8 +6,8 @@
 </head>
 
 <div class="container text-justify py-5">
-    <h1 class="title">BAKTI MILENIAL #3</h1>
-    <h1 class="title">[ BINTAN ]</h1>
+    <h1 class="title">MILENIAL MENGABDI #1</h1>
+    <h1 class="title">[ LOMBOK ]</h1>
     <img src="frontend2/images/BINTAN.svg" class="border border-dark mx-auto d-block" alt="" style="margin-top: 50px;">
     <p class="card-text text-center">
         <img src="frontend2/images/calendar.png" alt="">
