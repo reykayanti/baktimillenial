@@ -102,9 +102,9 @@
         <div class="row">
             <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000"
                 style="height: auto;">
-                <div class="MultiCarousel-inner" style="height: auto;width:1024px">
-                    <div class="item">
-                        <div class="pad15">
+                <div class="MultiCarousel-inner" style="height: auto;width:1024px; transform:translateX(0px);">
+                    <div class="item" style="width:500px;">
+                        <div class="pad15 ">
                             <p class="lead">Pendidikan</p>
                             <img src="frontend2/images/pendidikan.png" class="rounded-circle" width="70" height="70">
                             <p>Dalam bidang lingkungan, Lombok sebagai tempat tujuan destinasi wisata tentunya memiliki
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="width:500px;">
                         <div class="pad15">
                             <p class="lead">Lingkungan</p>
                             <img src="frontend2/images/lingkungan.png" class="rounded-circle" width="70" height="70">
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="width:500px;">
                         <div class="pad15">
                             <p class="lead">Kesehatan</p>
                             <img src="frontend2/images/kesehatan.png" class="rounded-circle" width="70" height="70">
@@ -152,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" style="width:500px;">
                         <div class="pad15">
                             <p class="lead">Ekonomi Kreatif</p>
                             <img src="frontend2/images/ekonomi.png" class="rounded-circle" width="70" height="70">
@@ -179,36 +179,33 @@
         </div>
     </div>
 </div>
-<div class="about-two">
-    <div class="container-fluid py-5 p-lg-5" style="background: #FAD586">
-        <div class="row" id="orange-satu">
-            <div class=" d-flex justify-content-center align-items-center flex-column col-7">
-                <h1>BAKTI MILLENIAL</h1>
-                <p class="text-justify" id="orange-dua">Bakti Milenial merupakan sebuah program dibawah naungan
-                    Indonesia Milenial
-                    Connect (IMC).
-                    Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
-                    berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
-                    kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
-                    Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
-                    dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
-                    Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
-                    masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
-                    diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
-                    Development”.
-                    Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
-                <div class="button-about-imc">
-                    <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
-                </div>
+
+<div class="container-fluid" style="background: #FAD586">
+    <div class="row" id="orange-satu">
+        <div class=" d-flex justify-content-center align-items-center flex-column col-lg-7 col-md-12">
+            <h1>BAKTI MILLENIAL</h1>
+            <p class="text-justify" id="orange-dua">Bakti Milenial merupakan sebuah program dibawah naungan
+                Indonesia Milenial
+                Connect (IMC).
+                Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
+                berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
+                kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
+                Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
+                dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
+                Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
+                masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
+                diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
+                Development”.
+                Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
+            <div class="button-about-imc">
+                <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
             </div>
-            <div class="col-2">
-                <img src="frontend2/images/lombok.png" width="400" height="400">
-            </div>
+        </div>
+        <div class="col-lg-2 col-md-12" style="position:relative;">
+            <img src="frontend2/images/lombok.png" width="400" height="400">
         </div>
     </div>
 </div>
-
-
 
 <div class="row pt-5 pb-5">
     <div class="col-6 pt-0 justify-content-center align-items-center">
@@ -243,7 +240,7 @@
 <!-- Lokasi -->
 <div class="container-fluid" style="background: #FAD586">
     <div class="row" id="orange-satu">
-        <div class="d-flex justify-content-center align-items-center flex-column col-7">
+        <div class=" d-flex justify-content-center align-items-center flex-column col-lg-7 col-md-12">
             <h1>Lokasi</h1>
             <p class="text-justify" id="orange-dua">Bakti Milenial merupakan sebuah program dibawah naungan Indonesia
                 Milenial
