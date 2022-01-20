@@ -75,8 +75,8 @@
 </head>
 
 <div class="container-fluid py-5">
-    <div class="container" style="height: 70vh;">
-        <div class="row">
+    <div class="container container-about" style="height: 70vh;">
+        <div class="row box-about">
             <div class="col-lg-6 col-md-12 mt-md-5">
                 <h1 class="about text-left">ABOUT US</h1>
                 <p>Yayasan Karya Anak Milenial atau Karya Anak Milenial Indonesia
@@ -102,7 +102,7 @@
         <div class="row">
             <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000"
                 style="height: auto;">
-                <div class="MultiCarousel-inner" style="height: auto;">
+                <div class="MultiCarousel-inner" style="height: auto;width:1024px">
                     <div class="item">
                         <div class="pad15">
                             <p class="lead">Pendidikan</p>
@@ -216,23 +216,23 @@
         <img src="frontend2/images/ketentuan.png" class="pt-3" style="width:60%">
     </div>
     <div class="col-6 pt-0 py-5 p-lg-5 ">
-        <div class="flex">
+        <div class="flex jalur-container">
+            <div class="jalur-box"></div>
             <div class="d-flex" id="">
-                <i class="material-icons">&#xe314;</i>
                 <h4 class="">Fully Funded</h4>
             </div>
             <p class="jalur-text">Dibiayai penuh oleh Yayasan Anak Millenial Indonesia</p>
         </div>
-        <div class="">
+        <div class="jalur-container">
+            <div class="jalur-box"></div>
             <div class="d-flex" id="">
-                <i class="material-icons">&#xe314;</i>
                 <h4 class="">Partial Funded</h4>
             </div>
             <p class="jalur-text">Diberikan potongan biaya jalur beasiswa.</p>
         </div>
-        <div class="">
+        <div class="jalur-container">
+            <div class="jalur-box"></div>
             <div class="d-flex" id="">
-                <i class="material-icons">&#xe314;</i>
                 <h4 class="">Self Funded</h4>
             </div>
             <p class="jalur-text">Keseluruhan biaya ditanggung pribadi.</p>

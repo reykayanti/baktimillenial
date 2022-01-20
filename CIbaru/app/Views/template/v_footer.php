@@ -43,7 +43,6 @@
                 </div>
             </div>
         </div>
-
         <div>
             <div class="container-fluid text-center text-white bg-dark" id="copy">
                 <p>Copyrigth @2021 Bakti Millenial | Theme by Bakti Millenial | More </p>
