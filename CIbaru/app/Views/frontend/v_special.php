@@ -16,7 +16,7 @@
     <h1 class="judul text-center py-5">Timeline Kegiatan</h1>
 
     <table class="table table-success table-striped">
-        <thead>
+        <thead class="table-dark">
             <tr>
                 <th scope="col">No</th>
                 <th scope="col">Kegiatan</th>
