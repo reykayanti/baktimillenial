@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap');
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .container {
   margin-top: 100px;
@@ -104,6 +104,7 @@ body {
   width: 148px;
   height: 138px;
   margin: 0.5rem 0 2rem 0;
+  box-shadow: 0 0 5px gray;
 }
 .item .pad15 .read-more-box {
   position: absolute;
@@ -164,13 +165,14 @@ body {
 
 .button-about-imc {
   position: relative;
-  width: 100%;
+  width: 85%;
   height: 50px;
 }
 
 .button-about-imc a {
   position: absolute;
   right: 0;
+  color: #fff;
 }
 
 .about-two {
@@ -180,6 +182,8 @@ body {
 #syarat-box {
   width: 800px;
   height: 220px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }
 
 #syarat-text {
@@ -236,6 +240,22 @@ a#selengkapnya {
   align-items: left;
   margin: 0.45rem auto;
 }
+.jalur-container {
+  position: relative;
+}
+.jalur-box::before {
+  position: absolute;
+  top: -1.8rem;
+  left: -5rem;
+  content: '\f0d9';
+  display: block;
+  width: 109px;
+  height: 45px;
+  font-size: 5rem;
+  color: #c4c4c4;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bolder;
+}
 
 #orange-satu {
   padding-bottom: 50px;
@@ -246,4 +266,17 @@ a#selengkapnya {
 #orange-dua {
   padding-right: 50px;
   padding-left: 100px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 998px) {
+  .container-about {
+    height: 100vh !important;
+  }
+  .MultiCarousel .MultiCarousel-inner .item {
+    width: 400px;
+  }
+  .box-about {
+    display: flex;
+  }
 }
