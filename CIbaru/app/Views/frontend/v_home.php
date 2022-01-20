@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" style="width:500px;">
+                    <div class="item">
                         <div class="pad15">
                             <p class="lead">Lingkungan</p>
                             <img src="frontend2/images/lingkungan.png" class="rounded-circle" width="70" height="70">
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" style="width:500px;">
+                    <div class="item">
                         <div class="pad15">
                             <p class="lead">Kesehatan</p>
                             <img src="frontend2/images/kesehatan.png" class="rounded-circle" width="70" height="70">
@@ -152,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" style="width:500px;">
+                    <div class="item">
                         <div class="pad15">
                             <p class="lead">Ekonomi Kreatif</p>
                             <img src="frontend2/images/ekonomi.png" class="rounded-circle" width="70" height="70">

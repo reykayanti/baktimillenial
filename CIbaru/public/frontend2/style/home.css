@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap');
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .container {
   margin-top: 100px;
@@ -50,7 +50,7 @@ body {
 /* Program */
 /* Height Card */
 .MultiCarousel-inner .item {
-  height: 900px;
+  height: 600px;
   width: 400px;
 }
 .MultiCarousel-inner .item .pad15 {
@@ -248,13 +248,13 @@ a#selengkapnya {
   position: absolute;
   top: -1.8rem;
   left: -5rem;
-  content: "\f0d9";
+  content: '\f0d9';
   display: block;
   width: 109px;
   height: 45px;
   font-size: 5rem;
   color: #c4c4c4;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: bolder;
 }
 
