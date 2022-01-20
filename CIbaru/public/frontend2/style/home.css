@@ -269,9 +269,9 @@ a#selengkapnya {
   .container-about {
     height: 100vh !important;
   }
-  .MultiCarousel .MultiCarousel-inner .item {
+  /* .MultiCarousel .MultiCarousel-inner .item {
     width: 400px;
-  }
+  } */
   .box-about {
     display: flex;
   }

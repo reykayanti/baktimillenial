@@ -102,7 +102,7 @@
         <div class="row">
             <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000"
                 style="height: auto;">
-                <div class="MultiCarousel-inner" style="height: auto;width:1024px">
+                <div class="MultiCarousel-inner" style="height: auto;">
                     <div class="item">
                         <div class="pad15">
                             <p class="lead">Pendidikan</p>
@@ -340,13 +340,13 @@ $(document).ready(function() {
                 incno = itemsSplit[2] - 2;
                 itemWidth = sampwidth / incno;
             } else if (bodyWidth >= 992) {
-                incno = itemsSplit[2] - 2;
+                incno = itemsSplit[2] - 3;
                 itemWidth = sampwidth / incno;
             } else if (bodyWidth >= 768) {
-                incno = itemsSplit[1];
+                incno = itemsSplit[2] - 3;
                 itemWidth = sampwidth / incno;
             } else if (bodyWidth >= 480) {
-                incno = itemsSplit[1];
+                incno = itemsSplit[2] - 4;
                 itemWidth = sampwidth / incno;
             } else {
                 incno = itemsSplit[0];
