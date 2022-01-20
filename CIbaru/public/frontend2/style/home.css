@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,900&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   margin-top: 100px;
@@ -50,7 +50,8 @@ body {
 /* Program */
 /* Height Card */
 .MultiCarousel-inner .item {
-  height: 600px;
+  height: 900px;
+  width: 400px;
 }
 .MultiCarousel-inner .item .pad15 {
   height: 100%;
@@ -195,9 +196,13 @@ body {
 
 .button-about-selengkapnya {
   position: relative;
-  width: 200px;
+  width: 100px;
   height: 60px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.45rem auto;
 }
 
 a#selengkapnya {
@@ -243,25 +248,24 @@ a#selengkapnya {
   position: absolute;
   top: -1.8rem;
   left: -5rem;
-  content: '\f0d9';
+  content: "\f0d9";
   display: block;
   width: 109px;
   height: 45px;
   font-size: 5rem;
   color: #c4c4c4;
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: bolder;
 }
 
 #orange-satu {
   padding-bottom: 50px;
-  padding-left: 20px;
+  padding-left: 50px;
   padding-top: 50px;
   padding-right: -50px;
 }
 #orange-dua {
   padding-right: 50px;
-  padding-left: 100px;
 }
 
 /* Responsive */
