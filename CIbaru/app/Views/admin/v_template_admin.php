@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Admin &mdash; Bakti Millenial</title>
+  <title>Millenial Mengabdi</title>
+    <link rel="shortcut icon" href="/img/mm.png">
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -30,69 +31,17 @@
             <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
             <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
           </ul>
+
+          <!--SEARCH FORM-->
           <div class="search-element">
             <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
             <div class="search-backdrop"></div>
             <div class="search-result">
-              <div class="search-header">
-                Histories
-              </div>
-              <div class="search-item">
-                <a href="#">How to hack NASA using CSS</a>
-                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
-              </div>
-              <div class="search-item">
-                <a href="#">Kodinger.com</a>
-                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
-              </div>
-              <div class="search-item">
-                <a href="#">#Stisla</a>
-                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
-              </div>
-              <div class="search-header">
-                Result
-              </div>
-              <div class="search-item">
-                <a href="#">
-                  <img class="mr-3 rounded" width="30" src="/dashboard/assets/img/products/product-3-50.png" alt="product">
-                  oPhone S9 Limited Edition
-                </a>
-              </div>
-              <div class="search-item">
-                <a href="#">
-                  <img class="mr-3 rounded" width="30" src="/dashboard/assets/img/products/product-2-50.png" alt="product">
-                  Drone X2 New Gen-7
-                </a>
-              </div>
-              <div class="search-item">
-                <a href="#">
-                  <img class="mr-3 rounded" width="30" src="/dashboard/assets/img/products/product-1-50.png" alt="product">
-                  Headphone Blitz
-                </a>
-              </div>
-              <div class="search-header">
-                Projects
-              </div>
-              <div class="search-item">
-                <a href="#">
-                  <div class="search-icon bg-danger text-white mr-3">
-                    <i class="fas fa-code"></i>
-                  </div>
-                  Stisla Admin Template
-                </a>
-              </div>
-              <div class="search-item">
-                <a href="#">
-                  <div class="search-icon bg-primary text-white mr-3">
-                    <i class="fas fa-laptop"></i>
-                  </div>
-                  Create a new Homepage Design
-                </a>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+
         <ul class="navbar-nav navbar-right">
           <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right">
@@ -162,6 +111,8 @@
           </li>
           <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right">
+
+
               <div class="dropdown-header">Notifications
                 <div class="float-right">
                   <a href="#">Mark All As Read</a>
@@ -219,6 +170,8 @@
               </div>
             </div>
           </li>
+
+          <!-- Right navbar links -->
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
             <img alt="image" src="/dashboard/assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block">Hi, Admin</div></a>
@@ -241,11 +194,16 @@
           </li>
         </ul>
       </nav>
+
+<!-- =========================================================================== -->
+<!--   layouts.sidebar -->
+<!-- Main Sidebar Container -->
       <div class="main-sidebar">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index.html">Admin</a>
+            <a href="index.html">Millenial Mengabdi</a>
           </div>
+
           <div class="sidebar-brand sidebar-brand-sm">
             <a href="index.html">St</a>
           </div>
@@ -253,45 +211,11 @@
               <li class="menu-header">Dashboard</li>
               <li class="nav-item dropdown active">
                 <a href="#"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+                <a href="<?= base_url('Cblog') ?>"><i class="fas fa-blog"></i><span>Blog</span></a>
+                <a href="<?= base_url('Cblog') ?>"><i class="fas fa-image"></i><span>Gallery</span></a>
+                <a href="<?= base_url('Cblog') ?>"><i class="fas fa-user"></i><span>User</span></a>
               </li>
 
-              <li class="menu-header">Data A</li>
-              <li class="nav-item dropdown active">
-                <a href="#"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
-              </li>
-            
-            
-              <li class="menu-header">Pages</li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>Auth</span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="auth-forgot-password.html">Forgot Password</a></li>
-                  <li><a href="auth-login.html">Login</a></li>
-                  <li><a class="beep beep-sidebar" href="auth-login-2.html">Login 2</a></li>
-                  <li><a href="auth-register.html">Register</a></li>
-                  <li><a href="auth-reset-password.html">Reset Password</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>Errors</span></a>
-                <ul class="dropdown-menu">
-                  <li><a class="nav-link" href="errors-503.html">503</a></li>
-                  <li><a class="nav-link" href="errors-403.html">403</a></li>
-                  <li><a class="nav-link" href="errors-404.html">404</a></li>
-                  <li><a class="nav-link" href="errors-500.html">500</a></li>
-                </ul>
-              </li>
-             
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link has-dropdown"><i class="fas fa-ellipsis-h"></i> <span>Utilities</span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="utilities-contact.html">Contact</a></li>
-                  <li><a class="nav-link" href="utilities-invoice.html">Invoice</a></li>
-                  <li><a href="utilities-subscribe.html">Subscribe</a></li>
-                </ul>
-              </li>
-              <li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a></li>
-            </ul>
 
         </aside>
       </div>
@@ -300,7 +224,7 @@
 
       <footer class="main-footer">
         <div class="footer-left">
-          Copyright &copy; 2022 <div class="bullet"></div> Bakti Millenial</a>
+          Copyright &copy; 2022 <div class="bullet"></div>Millenial Mengabdi</a>
         </div>
         <div class="footer-right">
           2.3.0

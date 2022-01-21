@@ -9,7 +9,6 @@
           <div class="section-header">
             <h1>Blog</h1>
           </div>
-
           <div class="row">
           <div class="col-md-12">
 
@@ -22,11 +21,15 @@
                 </div>
             <?php } ?>
 
-             <button type="button" class="btn btn-primary" data-toggle="modal" style="margin-left: 25px; margin-top: 20px;"><i class="fa fa-plus"></i><a href="blog/tambahblog.php">Add New Blog</a></button>
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tambah-data" style="margin-left: 25px; margin-top: 20px;">
+                  <i class="fa fa-plus"></i> Tambah Data
+                </button>
 
 
               <!-- /.card-header -->
               <div class="card-body">
+
+
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
@@ -72,8 +75,9 @@
                   <td><?php echo $deskripsi?></td>
                   <td><?php echo $status?></td>
                   <td>
+                    <span class="badge bg-info"><a href="#" data-toggle="modal" data-target="#lihat-data<?php echo $id_program;?>"><i class="fa fa-eye"> Lihat</i></a></span>
 
-                    <span class="badge bg-info" style="margin-bottom: 10px"><a href="#" data-toggle="modal" data-target="#edit-data<?php echo $id_program;?>"><i class="fa fa-edit"> Ubah</i></a></span>
+                    <span class="badge bg-warning"><a href="#" data-toggle="modal" data-target="#edit-data<?php echo $id_program;?>"><i class="fa fa-edit"> Ubah</i></a></span>
 
                     <span class="badge bg-danger"><a href="#" onclick="return confirm('Do you want to delete this?')"><i class="fa fa-edit" > Hapus</i></a></span>
                   </td>
