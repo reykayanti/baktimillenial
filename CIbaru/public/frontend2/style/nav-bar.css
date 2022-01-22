@@ -129,5 +129,19 @@ nav ul {
   }
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: 300px) {
+  .navbar-brand {
+    display: none;
+  }
+  .mobile-bar {
+    margin: auto;
+  }
+  #navbarSupportedContent.active {
+    position: relative;
+    top: 3rem;
+    width: 100%;
+  }
+  .container-fluid .menu-nav .navbar-nav {
+    transform: translate(10%, 0%);
+  }
 }
