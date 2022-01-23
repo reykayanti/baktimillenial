@@ -18,7 +18,7 @@
     }
 
     .MultiCarousel {
-        Height: 550px;
+        Height: 250px;
 
     }
 
@@ -258,7 +258,7 @@
                 Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
         </div>
         <div class="col-2 py-5 ">
-            <img src="frontend2/images/lokasi.png" width="400" height="400">
+            <img src="frontend2/images/lokasi.png" width="400" height="auto">
         </div>
     </div>
 </div>
@@ -268,8 +268,9 @@
     </center>
     <div class="row">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="border col-lg-6 col-md-12 " id="syarat-box">
-                <div id="syarat-text">
+            <div class="border d-flex justify-content-center align-items-center flex-column col-lg-6 col-md-12"
+                id="syarat-box">
+                <div id="" class="">
                     <p>Terbuka bagi pelajar, mahasiswa,atau masyarakat umum Indonesia dengan batasan usia
                         15-35 tahun.</p>
                     <p>Bersedia mengikuti kegiatan dari awal (pembekalan sampai akhir kegiatan</p>
@@ -278,7 +279,8 @@
                     <p>Memiliki komitmen diri terhadap kegiatan pengabdian.</p>
                 </div>
             </div>
-            <div class="border col-lg-6 col-md-12" id="syarat-box">
+            <div class="border d-flex justify-content-center align-items-center flex-column col-lg-6 col-md-12"
+                id="syarat-box">
                 <div id="syarat-text">
                     <p>Berjiwa sosial dan mampu bekerja dalam tim.</p>
                     <p>Aktif, kreatif, inovatif, baik dalam pra kegitan, proses kegiatan, maupun pasca
