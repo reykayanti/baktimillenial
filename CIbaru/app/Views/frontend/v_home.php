@@ -292,7 +292,7 @@
         </div>
     </div>
     <div class="button-about-selengkapnya">
-        <a href="#" class="rounded btn-warning d-flex" id="selengkapnya"> Selengkapnya</a>
+        <a href="#" class="rounded d-flex" id="selengkapnya"> Download <br> Buku Panduan</a>
     </div>
 </div>
 </div>
