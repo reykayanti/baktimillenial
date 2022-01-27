@@ -88,6 +88,11 @@ nav ul {
   transition: 0.5s ease-in-out;
 }
 
+/* Footer */
+.warna-footer .container-fluid p {
+  margin: 0 !important;
+}
+
 /* Responsive */
 @media only screen and (max-width: 998px) {
   .navigasi-container {
