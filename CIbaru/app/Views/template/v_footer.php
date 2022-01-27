@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="frontend2/style/footer.css">
 
     <div class="warna-footer">
-        <div class="container-fluid text-center text-white" id="container">
+        <div class="container-fluid text-center text-white h-auto" id="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 pt-5" id="card-logo">
                     <img src="frontend2/images/logomm.svg" width="200" height="100">
@@ -33,7 +33,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="card-body col-md-3 pt-5">
                         <h4 class="card-title">Follow Us</h4>
-                        <div class="contact m-auto">
+                        <div class="contact">
                             <img src="frontend2/images/insta.svg" alt="">
                             <img src="frontend2/images/youtube.svg" alt="">
                             <img src="frontend2/images/tiktok.svg" alt="">
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div>
-            <div class="container-fluid text-center text-white bg-dark" id="copy">
+            <div class="container-fluid text-center text-white bg-dark h-auto" id="copy">
                 <p>Copyrigth @2021 Bakti Millenial | Theme by Bakti Millenial | More </p>
             </div>
         </div>

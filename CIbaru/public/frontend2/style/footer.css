@@ -47,43 +47,16 @@
 .box-contact-us img {
   margin-right: 10px;
 }
-/* responsive breakpoints*/
-/* screen mobile phone */
-@media (min-width: 576px) {
-  #container {
-    height: 500px;
-  }
-  .box-contact {
-    margin-left: -20px;
-  }
-  .card-body {
-    margin-left: 285px;
-  }
-}
 
-/* screen tablet */
-@media (min-width: 768px) {
-  #container {
-    height: 250px;
-  }
-  .card-body {
-    margin-left: 10px;
-    margin-top: -8px;
-  }
-}
-
-/* screen desktop */
-@media (min-width: 922px) {
-  #container {
-    height: 250px;
-  }
-  .card-body {
-    margin-left: 10px;
-    margin-top: -8px;
-  }
-}
+/* responsive */
 @media (max-width: 992px) {
-  .contact {
-    margin-left: -60px;
+  .card-body {
+    margin-left: 52%;
+  }
+}
+
+@media (max-width: 567px) {
+  .card-body {
+    margin: auto;
   }
 }
