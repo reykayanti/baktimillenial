@@ -12,26 +12,26 @@
     <link rel="stylesheet" href="frontend2/style/footer.css">
 
     <div class="warna-footer">
-        <div class="container-fluid text-center text-white h-auto" id="container">
+        <div class="container-fluid text-center text-white h-auto pb-3" id="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 pt-5" id="card-logo">
-                    <img src="frontend2/images/logomm.svg" width="200" height="100">
+                <div class="card-logo col-md-4 col-sm-6 pt-5">
+                    <img src="frontend2/images/logomm.svg" class="logo">
                 </div>
-                <div class="col-md-4 col-sm-6 pt-5">
+                <div class="col-md-4 col-sm-6 pt-5 m-auto">
                     <div class="col-md-3 box-contact">
                         <h4 class="card-title">Contact Us</h4>
                         <div class="box-contact-us m-auto">
                             <img src="frontend2/images/email.svg" alt="">
-                            <p class="pt-3">kamifoundation@gmail.com</p>
+                            <p class="pt-2">kamifoundation@gmail.com</p>
                         </div>
                         <div class="box-contact-us m-auto">
                             <img src="frontend2/images/telp.svg" alt="">
-                            <p class="pt-3">+6287 8080 9090</p>
+                            <p class="pt-2">+6287 8080 9090</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <div class="card-body col-md-3 pt-5">
+                    <div class="card-follow pt-5">
                         <h4 class="card-title">Follow Us</h4>
                         <div class="contact">
                             <img src="frontend2/images/insta.svg" alt="">

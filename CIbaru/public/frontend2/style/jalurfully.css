@@ -44,12 +44,24 @@
 }
 
 /* responsive */
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 728px) {
+  /* Catatan Fully Funded */
+  /* width: 85vw; */
+  .box {
+    width: 85vw;
+  }
+}
 @media (max-width: 992px) {
   .judul2 {
     margin: auto;
   }
   .box {
-    width: 500px;
+    width: 85vw;
   }
   .container-fluid .row {
     margin: auto;

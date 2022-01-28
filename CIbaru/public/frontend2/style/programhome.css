@@ -37,14 +37,21 @@
     display: flex;
     flex-direction: column;
   }
-
   .program .row:nth-child(even) {
     display: flex;
     flex-direction: column-reverse;
   }
 }
-
 .program .row {
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 480px) {
+  .row .align-self-center {
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
 }

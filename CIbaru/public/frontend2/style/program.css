@@ -14,6 +14,12 @@
   color: #184d47;
   text-shadow: 4px 4px 4px #fad586;
 }
+
+/* .posisi-section .card-image {
+  width: 430px;
+  height: 450px;
+} */
+
 /* box-search */
 .box-search {
   position: relative;
@@ -65,8 +71,35 @@
     flex-direction: column-reverse;
   }
 }
-
 .row .posisi-section {
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 728px) and (min-width: 998px) {
+  .posisi-section .card-image {
+    width: 85vw;
+  }
+  .posisi-section .text-justify {
+    padding-top: 20px;
+  }
+  .box-search {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .posisi-section .card-image {
+    width: 85vw;
+  }
+  .posisi-section .text-justify {
+    margin-top: 20px;
+  }
+  .box-search {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
 }

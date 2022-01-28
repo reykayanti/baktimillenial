@@ -37,7 +37,7 @@
         </div>
         <div class="row m-auto py-4">
             <div class="col-lg-6 col-md-12 align-self-center">
-                <button type="button" class="btn-program btn-lg btn-primary-dark">Let's Rise the Economy and Tourism</button>
+                <button type="button" class="btn-program btn-lg btn-primary-dark h-auto">Let's Rise the Economy and Tourism</button>
             </div>
             <div class="col-lg-6 col-md-12 pt-sm-3 text-justify">
                 <p>Pada bidang ini, mempunyai fokus pada pengembangan ekonomi dan kreatif adapun kegiatan yang akan dilaksanakan adalah Pelatihan Teknologi mulai dari fotography, videography, editing, publIc speaking workshop, pelatihan online market dan digital marketing, pelatihan kepariwisataan, dan kemampuan berbahasa inggris yang tentunya dapat mendorong dalam pengembangan UMKM dan pariwisata di Lombok.</p>
@@ -73,47 +73,5 @@
 
 </div>
 </div>
-
-<style>
-    .content {
-        background-color: #CEECBA;
-    }
-
-    .judul-program {
-        font-family: acme;
-    }
-
-    .warna-footer {
-        background-color: #CEECBA;
-    }
-
-    .btn-program {
-        width: 270px;
-        height: 80px;
-        background-color: #FAD586 !important;
-        border: 1px;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-    }
-
-    /* Responsive */
-    @media (max-width: 992px) {
-        .program .row:nth-child(odd) {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .program .row:nth-child(even) {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    }
-
-    .program .row {
-        display: flex;
-        flex-direction: row;
-    }
-</style>
 
 <?= $this->endSection(); ?>

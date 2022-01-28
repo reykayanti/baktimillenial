@@ -19,10 +19,10 @@
         <div class="posisi-section">
             <div class="col-lg-6 col-md-12">
                 <center>
-                    <img src="frontend2/images/sub-cont.svg" style="width: 380px;" height="400px;">
+                    <img src="frontend2/images/sub-cont.svg" class="card-image">
                 </center>
             </div>
-            <div class="col-lg-6 col-md-12 mt-md-5 text-justify">
+            <div class="col-lg-6 col-md-12 mt-sm-4 mt-lg-0 text-justify">
                 <h2>Bidang Lingkungan</h2>
                 <p class="card-text"><small class="text-muted">Updated 15 Desember 2021</small></p>
                 <p>
@@ -38,8 +38,8 @@
             </div>
         </div>
 
-        <div class="posisi-section">
-            <div class="col-lg-6 col-md-12 mt-md-5 mt-sm-5 text-justify">
+        <div class="posisi-section pt-5">
+            <div class="col-lg-6 col-md-12 mt-sm-4 mt-lg-0 text-justify">
                 <h2>Bidang Pendidikan</h2>
                 <p class="card-text"><small class="text-muted">Updated 15 Desember 2021</small></p>
                 <p>
@@ -55,18 +55,18 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
-                    <img src="frontend2/images/sub-cont.svg" style="width: 430px;" height="450px;">
+                    <img src="frontend2/images/sub-cont.svg" class="card-image">
                 </center>
             </div>
         </div>
 
-        <div class="posisi-section">
+        <div class="posisi-section pt-5">
             <div class="col-lg-6 col-md-12">
                 <center>
-                    <img src="frontend2/images/sub-cont.svg" style="width: 430px;" height="450px;">
+                    <img src="frontend2/images/sub-cont.svg" class="card-image">
                 </center>
             </div>
-            <div class="col-lg-6 col-md-12 mt-md-5 text-justify">
+            <div class="col-lg-6 col-md-12 mt-sm-4 mt-lg-0 text-justify">
                 <h2>Bidang Kesehatan</h2>
                 <p class="card-text"><small class="text-muted">Updated 15 Desember 2021</small></p>
                 <p>
@@ -82,8 +82,8 @@
             </div>
         </div>
 
-        <div class="posisi-section">
-            <div class="col-lg-6 col-md-12 mt-md-5 mt-sm-5 text-justify">
+        <div class="posisi-section pt-5">
+            <div class="col-lg-6 col-md-12 mt-sm-4 mt-lg-0 text-justify">
                 <h2>Bidang Ekonomi Kreatif</h2>
                 <p class="card-text"><small class="text-muted">Updated 15 Desember 2021</small></p>
                 <p>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
-                    <img src="frontend2/images/sub-cont.svg" style="width: 430px;" height="450px;">
+                    <img src="frontend2/images/sub-cont.svg" class="card-image">
                 </center>
             </div>
         </div>
