@@ -86,7 +86,7 @@
                     inovasi serta karyanya dalam kehidupan bermasyarakat.
                     Pada Juli 2020, Karya Anak Milenial Indonesia (KAMI)
                     resmi legal membentuk sebuah yayasan dengan Bapak Sandiaga S. Uno sebagai Dewan Penasehat.</p>
-                <button type="button" id="button-about" class="rounded-pill btn-warning d-flex">Selengkapnya</button>
+                <a href="Ccontact" type="button" id="button-about" class="rounded-pill btn-warning d-flex">Selengkapnya</a>
             </div>
             <div class="col-lg-6 col-md-12" style="position:relative;top:-4rem;">
                 <img src="frontend2/images/aboutus1.svg" width="650" height="650">
@@ -94,10 +94,10 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-auto">
         <div class="text-program">
             <center>
-                <h2>Program</h2>
+                <h1 class="judul">Program</h1>
             </center>
         </div>
         <div class="row">
@@ -183,20 +183,9 @@
 <div class="container-fluid" style="background: #FAD586">
     <div class="row" id="orange-satu">
         <div class=" d-flex justify-content-center align-items-center flex-column col-lg-7 col-md-12">
-            <h1>BAKTI MILLENIAL</h1>
-            <p class="text-justify" id="orange-dua">Bakti Milenial merupakan sebuah program dibawah naungan
-                Indonesia Milenial
-                Connect (IMC).
-                Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
-                berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
-                kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
-                Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
-                dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
-                Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
-                masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
-                diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
-                Development”.
-                Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
+            <h1 class="judul">MILLENIAL MENGABDI</h1>
+            <p class="text-justify" id="orange-dua">Pandemi Covid-19 membuat KAMI Foundation merasa terpanggil untuk bergerak membantu Indonesia dalam menuntaskan berbagai isu yang ada, dalam sektor Pendidikan, Sosial, Pemberdayaan Masyarakat, serta Pariwisata dan Ekonomi Kreatif. Maka dari itu, Karya Anak Milenial Indonesia membuat program Milenial Mengabdi sebagai kontribusi nyata bagi bangsa Indonesia dalam kegiatan pemberdayaan masyarakat, khususnya dalam mengembangkan potensi lokal pada sektor pariwisata dan ekonomi kreatif. </p>
+            <p class="text-justify" id="orange-dua">"Millennial’s Little Steps for Society” merupakan tema yang diusung dalam kegiatan milenial mengabdi 1.0 kali ini. Dengan diusungnya tema ini diharapkan dapat mengajak kaum milenial untuk ikut memberikan kontribusinya secara nyata dalam memberikan ide kreatif dan solusi yang inovatif guna menuntaskan permasalahan yang ada di masyarakat. Secuil kontribusi yang kita beri akan sangat berarti bagi pembangunan negeri ini.</p>
             <div class="button-about-imc">
                 <a href="#" class="btn rounded-pill" style="background: #184D47">About IMC</a>
             </div>
@@ -209,7 +198,7 @@
 
 <div class="row pt-5 pb-5">
     <div class="col-6 pt-0 justify-content-center align-items-center">
-        <h1>Jalur Pendaftaran</h1>
+        <h1 class="judul">Jalur Pendaftaran</h1>
         <img src="frontend2/images/ketentuan.png" class="jalur-img pt-3" style="width:60%">
     </div>
     <div class="jalur-grup col-6 pt-0 py-5 p-lg-5 ">
@@ -241,21 +230,9 @@
 <div class="container-fluid" style="background: #FAD586">
     <div class="row lokasi" id="orange-satu">
         <div class=" d-flex justify-content-center align-items-center flex-column col-lg-7 col-md-12">
-            <h1>Lokasi</h1>
-            <p class="text-justify" id="orange-dua">Bakti Milenial merupakan sebuah program dibawah naungan Indonesia
-                Milenial
-                Connect
-                (IMC).
-                Indonesia Milenial Connect merupakan wadah pengembangan diri bagi pemuda/i Indonesia baik yang
-                berada dalam negeri maupun luar negeri, berfokus kepada tiga bidang yang menjadi faktor
-                kesejahteraan pemberdayaan masyarakat yaitu, pendidikan, sosial, dan ekonomi.
-                Pada Juli 2020, IMC resmi legal membentuk sebuah yayasan bernama Karya Anak Milenial Indonesia
-                dan Bapak Sandiaga Uno sebagai Dewan Penasehat.
-                Bakti Milenial hadir sebagai kontribusi nyata bagi bangsa Indonesia dalam bidang pemberdayaan
-                masyarakat khususnya dlam mengembangkan kesejahteraan dan kemajuan bangsa. Adapun tema yang
-                diusung yaitu “Optimizing the Use of Local Potential to Organize Sustainable Community
-                Development”.
-                Lokasi pengabdian masyarakat ini berada di pulau Bintan, Provinsi Kepulauan Riau. </p>
+            <h1 class="judul">Lokasi</h1>
+            <p class="text-justify" id="orange-dua">Lokasi pengabdian masyarakat kali ini berada di Pulau Lombok, sebuah pulau yang terletak di Provinsi Nusa Tenggara Barat yang terbagi menjadi 4 Kabupaten dan 1 Kota. Kurang lebih 80% penduduk pulau ini merupakan suku Sasak. Banyak keanekaragaman alam yang menjadi potensi wisata yang diminati oleh para wisatawan domestik maupun turis mancanegara.</p>
+            <p class="text-justify" id="orange-dua"> Namun dibalik keanekaragaman dan keindahan yang dimiliki, banyak permasalahan yang belum banyak orang ketahui. Empat kabupaten di pulau Lombok masuk ke dalam daerah 3T (terluar terdepan tertinggal), yaitu Lombok Barat, Lombok Tengah, Lombok Timur, dan Lombok Utara. Ditambah lagi dengan angka Indeks Pembangunan Manusia (IPM) Nusa Tenggara Barat pada tahun 2020 yang berada di peringkat 29 dari 34 provinsi di Indonesia, serta kualitas pendidikan di NTB yang masih berada di posisi rendah yaitu ranking 33 dari 34 provinsi di Indonesia.</p>
         </div>
         <div class="col-2 py-5">
             <img src="frontend2/images/lokasi.png" width="400" height="auto">
@@ -264,7 +241,7 @@
 </div>
 <div class="container syarat-ketentuan">
     <center>
-        <h2>Persyaratan & Ketentuan</h2>
+        <h1 class="judul">Persyaratan & Ketentuan</h1>
     </center>
     <div class="row">
         <div class="d-flex justify-content-center align-items-center">
