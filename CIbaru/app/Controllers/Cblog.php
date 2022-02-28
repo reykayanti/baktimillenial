@@ -11,7 +11,7 @@ class Cblog extends BaseController
 	{
 		$model = new Mblog();
 		$x['data']  = $model->tampilBlog()->getResultArray();
-		return view('admin/v_blog_admin', $x);
+		return view('admin/blog/v_blog_admin', $x);
 	}
 
 	public function tambahDataBlog()
@@ -33,7 +33,7 @@ class Cblog extends BaseController
 				return redirect()->to('admin/v_blog_admin');
 			}
 		}
-		return view('blog/tambahblog');
+		return view('admin/blog/tambahblog');
 	}
 
 	// public function hapus($id_program){
