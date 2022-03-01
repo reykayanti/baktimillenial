@@ -73,7 +73,7 @@
                       <td><?php echo $status ?></td>
                       <td>
 
-                        <span class="badge bg-info" style="margin-bottom: 10px"><a href="#" data-toggle="modal" data-target="#edit-data<?php echo $id_program; ?>"><i class="fa fa-edit"> Ubah</i></a></span>
+                        <span class="badge bg-info" style="margin-bottom: 10px"><a href="Cblog/tambahdatablog" data-target="#edit-data<?php echo $id_program; ?>"><i class="fa fa-edit"> Ubah</i></a></span>
 
                         <span class="badge bg-danger"><a href="#" onclick="return confirm('Do you want to delete this?')"><i class="fa fa-edit"> Hapus</i></a></span>
                       </td>
