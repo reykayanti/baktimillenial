@@ -7,6 +7,11 @@ use App\Models\Mblog;
 class Cblog extends BaseController
 {
 
+	public function __construct()
+	{
+		$this->modelBlog = new Mblog();
+	}
+
 	public function index()
 	{
 		$model = new Mblog();
@@ -14,32 +19,18 @@ class Cblog extends BaseController
 		return view('admin/blog/v_blog_admin', $x);
 	}
 
-	public function tambahDataBlog()
-	{
-
-		if ($this->request->getMethod() == 'post') {
-			$data = [
-				"id_program"    => $this->request->getPost('id_program'),
-				"id_user"    => $this->request->getPost('id_user'),
-				"judul"    => $this->request->getPost('judul'),
-				"cover"    => $this->request->getPost('cover'),
-				"deskripsi"    => $this->request->getPost('deskripsi'),
-				"status"    => $this->request->getPost('status'),
-			];
-
-			$Mblog = new \App\Models\Mblog();
-			if ($Mblog->insert($data)) {
-				session()->setFlashdata('success', 'Data berhasil disimpan');
-				return redirect()->to('admin/v_blog_admin');
-			}
-		}
+	public function create(){
 		return view('admin/blog/tambahblog');
 	}
 
-	// public function hapus($id_program){
-	//         $model = new Mblog();
-	//         $model->deleteBlog($id_blog);
-	//         return redirect()->to('/Cblog');
-	//     }
+	public function save(){
+		$this->modelBlog->save([
+			'judul' => $this->request->getVar('judul'),
+			'deskripsi' => $this->request->getVar('deskripsi'),
+			'status' => $this->request->getVar('status'),
+			'cover' => $this->request->getVar('cover'),
+		]);
 
+		return redirect()->to('/Cblog');
+	}
 }

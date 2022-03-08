@@ -22,7 +22,7 @@
               </div>
             <?php } ?>
 
-            <button type="button" class="btn btn-primary" style="margin-left: 25px; margin-top: 20px;"><i class="fa fa-plus"></i><a href="<?= base_url('Cblog/tambahdatablog'); ?>">Add New Blog</a></button>
+            <button type="button" class="btn btn-primary" style="margin-left: 25px; margin-top: 20px;"><i class="fa fa-plus"></i><a href="<?= base_url('Cblog/create'); ?>">Add New Blog</a></button>
 
 
             <!-- /.card-header -->

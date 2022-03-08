@@ -12,7 +12,10 @@
       <h1>Dashboard Admin</h1>
     </div>
 
-    <form>
+    <form action="/Cblog/save" method="POST">
+      <!-- cara agar formnya aman tidak bisa dibajak -->
+      <?= csrf_field(); ?>
+
       <div class="col-12">
         <div class="card">
           <div class="card-header">
@@ -23,37 +26,29 @@
               <b>Note!</b> Pastikan Mengisi Form Blog dengan Lengkap
             </div>
             <div class="form-group">
-              <label>ID User</label>
-              <input type="text" class="form-control" id="id_user">
+              <label for="judul">Judul</label>
+              <input type="text" class="form-control" id="judul" name="judul">
             </div>
             <div class="form-group">
-              <label>Judul</label>
-              <input type="text" class="form-control" id="judul">
+              <label for="cover">Cover</label>
+              <input type="file" class="form-control" id="cover" name="cover">
             </div>
             <div class="form-group">
-              <label>Cover</label>
-              <input type="file" class="form-control" id="cover">
-            </div>
-            <div class="form-group">
-              <label>Deskripsi</label>
-              <textarea class="form-control" id="deskripsi"></textarea>
+              <label for="deskripsi">Deskripsi</label>
+              <textarea class="form-control" id="deskripsi" style="height: 200px;" name="deskripsi"></textarea>
             </div>
             <div class="form-group">
               <label>Status</label>
-              <select class="form-control" id="status">
+              <select class="form-control" id="status" name="status">
                 <option>Arsip</option>
-                <option>Update</option>
+                <option>Publish</option>
               </select>
             </div>
             <div class="buttons">
-              <a class="submit btn btn-primary">Submit</a>
+              <button type="submit" class="submit btn btn-primary">Submit</button>
               <a class="submit btn btn-danger">Cancel</a>
             </div>
-            <script>
-              document.querySelector(".submit").addEventListener('click', function() {
-                swal("Berhasil", "Data Anda Berhasil Disimpan", "success");
-              });
-            </script>
+
           </div>
         </div>
     </form>
