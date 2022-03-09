@@ -59,12 +59,12 @@
                       <td><?php echo $judul ?></td>
                       <td><?php echo $cover ?>
                         <?php if ($cover != NULL) : ?>
-                          <a href="/img/<?php echo $cover; ?>" data-toggle="lightbox" data-title="sample gambar">
-                            <img src="/img/<?php echo $cover; ?>" class="img-fluid mb-2" alt="sample gambar" style="width: 200px; height: 100px;" />
+                          <a href="/image/<?php echo $cover; ?>" data-toggle="lightbox" data-title="sample gambar">
+                            <img src="/image/<?php echo $cover; ?>" class="img-fluid mb-2" alt="sample gambar" style="width: 200px; height: 100px;" />
                           </a>
                         <?php else : ?>
-                          <a href="/img/news/img02.jpg" data-toggle="lightbox" data-title="sample 1 - white">
-                            <img src="/img/news/img01.jpg" class="img-fluid mb-2" alt="white sample" style="width: 200px; height: 100px;" />
+                          <a href="/image/noimage.jpg" data-toggle="lightbox" data-title="sample 1 - white">
+                            <img src="/image/noimage.jpg" class="img-fluid mb-2" alt="white sample" style="width: 200px; height: 100px;" />
                           </a>
                         <?php endif; ?>
                       </td>
