@@ -72,4 +72,8 @@ class Cblog extends BaseController
 		$this->modelBlog->delete($id_program);
 		return redirect()->to('/Cblog');
 	}
+
+	public function edit()
+	{
+	}
 }
