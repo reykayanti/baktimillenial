@@ -12,7 +12,7 @@
       <h1>Dashboard Admin</h1>
     </div>
 
-    <form action="/Cblog/save" method="POST">
+    <form action="/Cblog/save" method="POST" enctype="multipart/form-data">
       <!-- cara agar formnya aman tidak bisa dibajak -->
       <?= csrf_field(); ?>
 
