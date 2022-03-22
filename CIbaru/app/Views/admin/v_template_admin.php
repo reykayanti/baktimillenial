@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
   <title>Millenial Mengabdi</title>
-    <link rel="shortcut icon" href="/img/mm.png">
+  <link rel="shortcut icon" href="/img/mm.png">
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -38,9 +39,9 @@
             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
             <div class="search-backdrop"></div>
             <div class="search-result">
-              </div>
             </div>
-          </form>
+          </div>
+        </form>
 
         <ul class="navbar-nav navbar-right">
           <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
@@ -173,8 +174,9 @@
 
           <!-- Right navbar links -->
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="/dashboard/assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
-            <div class="d-sm-none d-lg-inline-block">Hi, Admin</div></a>
+              <img alt="image" src="/dashboard/assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+              <div class="d-sm-none d-lg-inline-block">Hi, Admin</div>
+            </a>
             <div class="dropdown-menu dropdown-menu-right">
               <div class="dropdown-title">Logged in 5 min ago</div>
               <a href="features-profile.html" class="dropdown-item has-icon">
@@ -195,9 +197,9 @@
         </ul>
       </nav>
 
-<!-- =========================================================================== -->
-<!--   layouts.sidebar -->
-<!-- Main Sidebar Container -->
+      <!-- =========================================================================== -->
+      <!--   layouts.sidebar -->
+      <!-- Main Sidebar Container -->
       <div class="main-sidebar">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
@@ -208,13 +210,13 @@
             <a href="index.html">St</a>
           </div>
           <ul class="sidebar-menu">
-              <li class="menu-header">Dashboard</li>
-              <li class="nav-item dropdown active">
-                <a href="#"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
-                <a href="<?= base_url('Cblog') ?>"><i class="fas fa-blog"></i><span>Blog</span></a>
-                <a href="<?= base_url('Cblog') ?>"><i class="fas fa-image"></i><span>Gallery</span></a>
-                <a href="<?= base_url('Cblog') ?>"><i class="fas fa-user"></i><span>User</span></a>
-              </li>
+            <li class="menu-header">Dashboard</li>
+            <li class="nav-item dropdown active">
+              <a href="#"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+              <a href="<?= base_url('Cblog') ?>"><i class="fas fa-blog"></i><span>Blog</span></a>
+              <a href="<?= base_url('Cblog') ?>"><i class="fas fa-image"></i><span>Gallery</span></a>
+              <a href="<?= base_url('Cblog') ?>"><i class="fas fa-user"></i><span>User</span></a>
+            </li>
 
 
         </aside>
@@ -255,4 +257,5 @@
   <!-- Page Specific JS File -->
   <script src="/dashboard/assets/js/page/index.js"></script>
 </body>
+
 </html>

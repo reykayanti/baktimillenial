@@ -19,11 +19,18 @@ class Cblog extends BaseController
 		return view('admin/blog/v_blog_admin', $x);
 	}
 
-	public function create(){
+	public function create()
+	{
 		return view('admin/blog/tambahblog');
 	}
 
-	public function save(){
+	public function save()
+	{
+		// if (!$this->validate([
+		// 	'judul' => 'required|is_unique[blog.judul]'
+		// ])) {
+		// 	return redirect()->to('/Cblog');
+		// }
 		$this->modelBlog->save([
 			'judul' => $this->request->getVar('judul'),
 			'deskripsi' => $this->request->getVar('deskripsi'),
@@ -31,6 +38,12 @@ class Cblog extends BaseController
 			'cover' => $this->request->getVar('cover'),
 		]);
 
+		return redirect()->to('/Cblog');
+	}
+
+	public function delete($id_program)
+	{
+		$this->modelBlog->delete($id_program);
 		return redirect()->to('/Cblog');
 	}
 }
