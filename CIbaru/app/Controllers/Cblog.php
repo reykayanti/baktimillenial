@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Mblog;
+use App\Controllers\BaseController;
 
 class Cblog extends BaseController
 {
@@ -70,10 +71,32 @@ class Cblog extends BaseController
 	public function delete($id_program)
 	{
 		$this->modelBlog->delete($id_program);
+		session()->setFlashdata('pesan', 'Data berhasil ditambahkan');
 		return redirect()->to('/Cblog');
 	}
 
-	public function edit()
+	public function edit($id_program)
 	{
+		$data = [
+			'validation' => \Config\Services::validation(),
+			'blog' => $this->modelBlog->getPost($id_program)
+		];
+		return view('admin/blog/editblog', $data);
+	}
+
+	public function update($id_program)
+	{
+		// $blog = url_title($this->request->getVar('judul'), '-', true);
+		$this->modelBlog->save([
+			'id' => $id_program,
+			'judul' => $this->request->getVar('judul'),
+			'deskripsi' => $this->request->getVar('deskripsi'),
+			'status' => $this->request->getVar('status'),
+			'cover' => $this->request->getVar('cover')
+		]);
+
+		session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
+
+		return redirect()->to('/Cblog');
 	}
 }
