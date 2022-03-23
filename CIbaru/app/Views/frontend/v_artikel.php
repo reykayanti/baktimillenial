@@ -14,6 +14,13 @@
             <i class="fas fa-search"></i>
         </div>
     </div>
+    <?php foreach ($blog as $b): ?>
+
+        <!-- </?= $b['judul']; ?> -->
+        
+     <?php endforeach; ?>  
+        
+        
 
     <div class="row">
         <div class="posisi-section">
