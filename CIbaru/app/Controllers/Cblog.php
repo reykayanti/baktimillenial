@@ -69,9 +69,11 @@ class Cblog extends BaseController
 
 	public function edit($id_program)
 	{
+		$blog = $this->modelBlog->where(['id_program' => $id_program])->first();
+
 		$data = [
 			'validation' => \Config\Services::validation(),
-			'blog' => $this->modelBlog->getPost($id_program)
+			'blog' => $blog
 		];
 		return view('admin/blog/editblog', $data);
 	}
