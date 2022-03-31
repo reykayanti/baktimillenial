@@ -31,6 +31,9 @@
             </div>
             <div class="form-group">
               <label for="cover">Cover</label>
+              <div class="alert alert-info">
+                <b>Note!</b> Pastikan format nama file tanpa spasi!!
+              </div>
               <input type="file" class="form-control" id="cover" name="cover">
             </div>
             <div class="form-group">
