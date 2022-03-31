@@ -115,19 +115,52 @@ class Cblog extends BaseController
 
 		// iniii baruuu
 
-		{
-			$id_program = url_title($this->request->getVar('judul'), '-', true);
-			$this->modelBlog->save([
-				'id' => $id_program,
-				'judul' => $this->request->getVar('judul'),
-				'deskripsi' => $this->request->getVar('deskripsi'),
-				'status' => $this->request->getVar('status'),
-				'cover' => $this->request->getVar('cover')
-			]);
+		// {
+		// 	$id_program = url_title($this->request->getVar('judul'), '-', true);
+		// 	$this->modelBlog->save([
+		// 		'id' => $id_program,
+		// 		'judul' => $this->request->getVar('judul'),
+		// 		'deskripsi' => $this->request->getVar('deskripsi'),
+		// 		'status' => $this->request->getVar('status'),
+		// 		'cover' => $this->request->getVar('cover')
+		// 	]);
 
-			session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
+		// 	session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
 
-			return redirect()->to('/Cblog');
-		}
+		// 	return redirect()->to('/Cblog');
+		// }
+
+		//ini baru ke 2
+		// $id_program		= $this->request->getPost('id_program');
+		// $judul	= $this->request->getPost('judul');
+		// $cover	= $this->request->getPost('cover');
+		// $deskripsi		= $this->request->getPost('deskripsi');
+		// $status	= $this->request->getPost('status');
+
+		// $data = [
+		// 	'judul'		=> $judul,
+		// 	'cover'		=> $cover,
+		// 	'deskripsi'	=> $deskripsi,
+		// 	'status' => $status,
+		// ];
+
+		// $result = $this->modelBlog->update($id_program, $data);
+		// if ($result) {
+		// 	echo "User details are updated successfully.";
+		// } else {
+		// 	echo "Something went wrong";
+		// }
+
+		//iniiii keberapa
+		$id = $this->request->getVar('id_program');
+		$data = [
+			'id_program' => $this->request->getVar('id_program'),
+			'judul'  => $this->request->getVar('judul'),
+			'cover'  => $this->request->getVar('cover'),
+			'deskripsi'  => $this->request->getVar('deskripsi'),
+			'status'  => $this->request->getVar('status'),
+		];
+		$this->modelBlog->update($id_program, $data);
+		return redirect()->to('/Cblog');
 	}
 }
