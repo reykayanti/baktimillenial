@@ -80,17 +80,54 @@ class Cblog extends BaseController
 
 	public function update($id_program)
 	{
+		// $blogLama = $this->modelBlog->getBlog($this->request->getVar('slug'));
+		// if ($blogLama['judul'] == $this->request->getVar('judul')) {
+		// 	$rule_judul = 'required';
+		// } else {
+		// 	$rule_judul = 'required|is_unique[blog.judul]';
+		// }
+
+		// if ($this->validate([
+		// 	'judul' => [
+		// 		'rules' => $rule_judul,
+		// 		'errors' => [
+		// 			'required' => '{field} blog harus diisi',
+		// 			'is_unique' => '{field} blog sudah terdaftar'
+		// 		]
+		// 	]
+		// ])) {
+		// 	$validation = \Config\Services::validation();
+		// 	return redirect()->to('/blog/edit/' . $this->request->getVar('blog'))->withInput()->with('validation', $validation);
+		// }
+
 		// $blog = url_title($this->request->getVar('judul'), '-', true);
-		$this->modelBlog->save([
-			'id' => $id_program,
-			'judul' => $this->request->getVar('judul'),
-			'deskripsi' => $this->request->getVar('deskripsi'),
-			'status' => $this->request->getVar('status'),
-			'cover' => $this->request->getVar('cover')
-		]);
+		// $this->modelBlog->save([
+		// 	'id' => $id_program,
+		// 	'judul' => $this->request->getVar('judul'),
+		// 	'deskripsi' => $this->request->getVar('deskripsi'),
+		// 	'status' => $this->request->getVar('status'),
+		// 	'cover' => $this->request->getVar('cover')
+		// ]);
 
-		session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
+		// session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
 
-		return redirect()->to('/Cblog');
+		// return redirect()->to('/Cblog');
+
+		// iniii baruuu
+
+		{
+			$id_program = url_title($this->request->getVar('judul'), '-', true);
+			$this->modelBlog->save([
+				'id' => $id_program,
+				'judul' => $this->request->getVar('judul'),
+				'deskripsi' => $this->request->getVar('deskripsi'),
+				'status' => $this->request->getVar('status'),
+				'cover' => $this->request->getVar('cover')
+			]);
+
+			session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
+
+			return redirect()->to('/Cblog');
+		}
 	}
 }

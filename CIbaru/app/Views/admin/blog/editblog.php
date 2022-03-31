@@ -25,10 +25,11 @@
                         <div class="alert alert-info">
                             <b>Note!</b> Pastikan Mengisi Form Blog dengan Lengkap
                         </div>
+                        <input type="hidden" name="id_program" value="<?= $blog['id_program']; ?>">
                         <div class="form-group">
                             <label for="judul">Judul</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control <?= ($validation->hasError('judul')) ? 'is-invalid' : ''; ?>" id="judul" name="judul" autofocus value="<?= $blog['id_program']; ?>">
+                                <input type="text" class="form-control" id="judul" name="judul" <?= ($validation->hasError('judul')) ? 'is-invalid' : ''; ?>" id="judul" name="judul" autofocus value="<?= $blog['judul']; ?>">
                                 <div class="invalid-feedback">
                                     <?= $validation->getError('judul'); ?>
                                 </div>
@@ -37,16 +38,16 @@
                         <div class="form-group">
                             <label for="cover">Cover</label>
                             <div class="col-sm-10">
-                                <input type="file" class="form-control" id="cover" name="cover" value="<?= $blog['cover']; ?>">
+                                <input type="file" class="form-control" id="cover" name="cover" value="<?= (old('cover')) ? old('cover') : $blog['cover'] ?>">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="deskripsi">Deskripsi</label>
                             <div class="col-sm-10">
-                                <textarea class="form-control" id="deskripsi" style="height: 200px;" name="deskripsi" value="<?= $blog['deskripsi']; ?>"></textarea>
+                                <textarea class="form-control" id="deskripsi" style="height: 200px;" name="deskripsi" value=" <?= (old('deskripsi')) ? old('deskripsi') : $blog['deskripsi'] ?>"></textarea>
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class=" form-group">
                             <label>Status</label>
                             <select class="form-control" id="status" name="status">
                                 <option>Arsip</option>
