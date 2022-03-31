@@ -36,7 +36,7 @@ class Cblog extends BaseController
 		// =======
 
 		$validation = $this->validate([
-			'cover' => 'uploaded[cover]|mime_in[cover,image/jpg,image/jpeg,image/gif,image/png]|max_size[cover,4096]'
+			'cover' => 'uploaded[cover]|mime_in[cover,image/jpg,image/JPG,image/jpeg,image/gif,image/png]|max_size[cover,10000]'
 		]);
 
 		if ($validation == FALSE) {
