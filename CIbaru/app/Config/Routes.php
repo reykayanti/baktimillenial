@@ -57,7 +57,10 @@ $routes->get('/jalurself', 'Cself::index');
 // admin
 $routes->get('/admin', 'Cadmin::index');
 $routes->get('/admin/edit/(:segment)', 'Cadmin::edit/$1');
+// $routes->get('/admin/update/(:segment)', 'Cadmin::update/$1');
 $routes->get('/admin/update/(:segment)', 'Cadmin::update/$1');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -12,7 +12,12 @@
             <h1>Edit Blog</h1>
         </div>
 
-        <form action="/Cblog/update/<?= $blog['id_program']; ?>" method="POST">
+        <!-- <form action="/Cblog/update/<?= $blog['id_program']; ?>" method="POST"> -->
+
+        <!-- <form action="<?= base_url('') ?>" method="POST" enctype="multipart/form-data"> -->
+
+        <form action="<?php echo base_url() . 'admin/update'; ?>" method="post" enctype="multipart/form-data">
+
             <!-- cara agar formnya aman tidak bisa dibajak -->
             <?= csrf_field(); ?>
 
@@ -64,5 +69,7 @@
         </form>
     </section>
 </div>
+
+<!--  -->
 
 <?= $this->endSection(); ?>

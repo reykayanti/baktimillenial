@@ -27,14 +27,6 @@ class Cblog extends BaseController
 
 	public function save()
 	{
-		// <<<<<<< HEAD
-		// if (!$this->validate([
-		// 	'judul' => 'required|is_unique[blog.judul]'
-		// ])) {
-		// 	return redirect()->to('/Cblog');
-		// }
-		// =======
-
 		$validation = $this->validate([
 			'cover' => 'uploaded[cover]|mime_in[cover,image/jpg,image/jpeg,image/gif,image/png]|max_size[cover,4096]'
 		]);
@@ -152,15 +144,37 @@ class Cblog extends BaseController
 		// }
 
 		//iniiii keberapa
-		$id = $this->request->getVar('id_program');
-		$data = [
-			'id_program' => $this->request->getVar('id_program'),
-			'judul'  => $this->request->getVar('judul'),
-			'cover'  => $this->request->getVar('cover'),
-			'deskripsi'  => $this->request->getVar('deskripsi'),
-			'status'  => $this->request->getVar('status'),
-		];
-		$this->modelBlog->update($id_program, $data);
+		//sebelumnya DENNN
+		// $id_program = $this->request->getVar('id_program');
+		// $data = [
+		// 	'id_program' => $this->request->getVar('id_program'),
+		// 	'judul'  => $this->request->getVar('judul'),
+		// 	'cover'  => $this->request->getVar('cover'),
+		// 	'deskripsi'  => $this->request->getVar('deskripsi'),
+		// 	'status'  => $this->request->getVar('status'),
+		// ];
+		// $this->modelBlog->update($id_program, $data);
+		// return redirect()->to('/Cblog');
+
+		$id_program = $this->input->post('id_program');
+		$judul = $this->input->post('judul');
+		$cover = $this->input->post('cover');
+		$deskripsi = $this->input->post('deskripsi');
+		$status = $this->input->post('status');
+
+		$data = array(
+			'judul' => $judul,
+			'cover' => $cover,
+			'deskripsi' => $deskripsi,
+			'status' => $status,
+		);
+
+		$where = array(
+			'id_program' => $id_program
+		);
+
+		$this->Mblog->update_data($where, $data, 'blog');
+		// redirect('/admin/update');
 		return redirect()->to('/Cblog');
 	}
 }
